@@ -43,9 +43,30 @@ if(ieDetector.ieVersion == 10 || ieDetector.ieVersion == 11) {
 }
 
 $(function() {
-
 // placeholder
 //-----------------------------------------------------------------------------
-  $('input[placeholder], textarea[placeholder]').placeholder();
+    $('input[placeholder], textarea[placeholder]').placeholder();
+
 
 });
+
+var map;
+function initMap() {
+    var myLatLng = {lat: 49.4225715, lng: 26.9763337};
+
+    var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 15,
+        scrollwheel: false,
+        center:  {lat: 49.4225715, lng: 26.9763337},  // Brooklyn.
+        mapTypeControlOptions: {
+            mapTypeIds: [google.maps.MapTypeId.ROADMAP]
+        }
+    });
+
+    var marker = new google.maps.Marker({
+        position: myLatLng,
+        map: map,
+        title: 'ТОчка на карте'
+    });
+}
+

@@ -1,120 +1,160 @@
-/*
-  SASS variables are information about icon's compiled state, stored under its original file name
-
-  .icon-home
-    width: $icon-home-width
-
-  The large array-like variables contain all information about a single icon
-  $icon-home: x y offset_x offset_y width height total_width total_height image_path
-
-  At the bottom of this section, we provide information about the spritesheet itself
-  $spritesheet: width height image $spritesheet-sprites
-  */
-$close-bt-name: 'close-bt'
-$close-bt-x: 142px
-$close-bt-y: 64px
-$close-bt-offset-x: -142px
-$close-bt-offset-y: -64px
-$close-bt-width: 10px
-$close-bt-height: 10px
-$close-bt-total-width: 192px
-$close-bt-total-height: 128px
-$close-bt-image: 'sprite.png'
-$close-bt: (142px, 64px, -142px, -64px, 10px, 10px, 192px, 128px, 'sprite.png', 'close-bt', )
-$facebook-name: 'facebook'
-$facebook-x: 0px
-$facebook-y: 0px
-$facebook-offset-x: 0px
-$facebook-offset-y: 0px
-$facebook-width: 64px
-$facebook-height: 64px
-$facebook-total-width: 192px
-$facebook-total-height: 128px
-$facebook-image: 'sprite.png'
-$facebook: (0px, 0px, 0px, 0px, 64px, 64px, 192px, 128px, 'sprite.png', 'facebook', )
-$google-plus-name: 'google-plus'
-$google-plus-x: 64px
-$google-plus-y: 0px
-$google-plus-offset-x: -64px
-$google-plus-offset-y: 0px
-$google-plus-width: 64px
-$google-plus-height: 64px
-$google-plus-total-width: 192px
-$google-plus-total-height: 128px
-$google-plus-image: 'sprite.png'
-$google-plus: (64px, 0px, -64px, 0px, 64px, 64px, 192px, 128px, 'sprite.png', 'google-plus', )
-$instagram-name: 'instagram'
-$instagram-x: 0px
-$instagram-y: 64px
-$instagram-offset-x: 0px
-$instagram-offset-y: -64px
-$instagram-width: 64px
-$instagram-height: 64px
-$instagram-total-width: 192px
-$instagram-total-height: 128px
-$instagram-image: 'sprite.png'
-$instagram: (0px, 64px, 0px, -64px, 64px, 64px, 192px, 128px, 'sprite.png', 'instagram', )
-$linkedin-name: 'linkedin'
-$linkedin-x: 64px
-$linkedin-y: 64px
-$linkedin-offset-x: -64px
-$linkedin-offset-y: -64px
-$linkedin-width: 64px
-$linkedin-height: 64px
-$linkedin-total-width: 192px
-$linkedin-total-height: 128px
-$linkedin-image: 'sprite.png'
-$linkedin: (64px, 64px, -64px, -64px, 64px, 64px, 192px, 128px, 'sprite.png', 'linkedin', )
-$lupa-bg-name: 'lupa-bg'
-$lupa-bg-x: 128px
-$lupa-bg-y: 64px
-$lupa-bg-offset-x: -128px
-$lupa-bg-offset-y: -64px
-$lupa-bg-width: 14px
-$lupa-bg-height: 15px
-$lupa-bg-total-width: 192px
-$lupa-bg-total-height: 128px
-$lupa-bg-image: 'sprite.png'
-$lupa-bg: (128px, 64px, -128px, -64px, 14px, 15px, 192px, 128px, 'sprite.png', 'lupa-bg', )
-$twitter-name: 'twitter'
-$twitter-x: 128px
-$twitter-y: 0px
-$twitter-offset-x: -128px
-$twitter-offset-y: 0px
-$twitter-width: 64px
-$twitter-height: 64px
-$twitter-total-width: 192px
-$twitter-total-height: 128px
-$twitter-image: 'sprite.png'
-$twitter: (128px, 0px, -128px, 0px, 64px, 64px, 192px, 128px, 'sprite.png', 'twitter', )
-$spritesheet-width: 192px
-$spritesheet-height: 128px
+// SASS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home
+//   width: $icon-home-width
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites
+$duble-arrow-right-name: 'duble_arrow_right'
+$duble-arrow-right-x: 108px
+$duble-arrow-right-y: 0px
+$duble-arrow-right-offset-x: -108px
+$duble-arrow-right-offset-y: 0px
+$duble-arrow-right-width: 15px
+$duble-arrow-right-height: 15px
+$duble-arrow-right-total-width: 123px
+$duble-arrow-right-total-height: 102px
+$duble-arrow-right-image: 'sprite.png'
+$duble-arrow-right: (108px, 0px, -108px, 0px, 15px, 15px, 123px, 102px, 'sprite.png', 'duble_arrow_right', )
+$email-icon-name: 'email-icon'
+$email-icon-x: 0px
+$email-icon-y: 88px
+$email-icon-offset-x: 0px
+$email-icon-offset-y: -88px
+$email-icon-width: 18px
+$email-icon-height: 14px
+$email-icon-total-width: 123px
+$email-icon-total-height: 102px
+$email-icon-image: 'sprite.png'
+$email-icon: (0px, 88px, 0px, -88px, 18px, 14px, 123px, 102px, 'sprite.png', 'email-icon', )
+$fb-icon-name: 'fb-icon'
+$fb-icon-x: 44px
+$fb-icon-y: 0px
+$fb-icon-offset-x: -44px
+$fb-icon-offset-y: 0px
+$fb-icon-width: 44px
+$fb-icon-height: 44px
+$fb-icon-total-width: 123px
+$fb-icon-total-height: 102px
+$fb-icon-image: 'sprite.png'
+$fb-icon: (44px, 0px, -44px, 0px, 44px, 44px, 123px, 102px, 'sprite.png', 'fb-icon', )
+$in-icon-name: 'in-icon'
+$in-icon-x: 0px
+$in-icon-y: 44px
+$in-icon-offset-x: 0px
+$in-icon-offset-y: -44px
+$in-icon-width: 44px
+$in-icon-height: 44px
+$in-icon-total-width: 123px
+$in-icon-total-height: 102px
+$in-icon-image: 'sprite.png'
+$in-icon: (0px, 44px, 0px, -44px, 44px, 44px, 123px, 102px, 'sprite.png', 'in-icon', )
+$locate-icon-name: 'locate-icon'
+$locate-icon-x: 88px
+$locate-icon-y: 40px
+$locate-icon-offset-x: -88px
+$locate-icon-offset-y: -40px
+$locate-icon-width: 15px
+$locate-icon-height: 22px
+$locate-icon-total-width: 123px
+$locate-icon-total-height: 102px
+$locate-icon-image: 'sprite.png'
+$locate-icon: (88px, 40px, -88px, -40px, 15px, 22px, 123px, 102px, 'sprite.png', 'locate-icon', )
+$lupa-icon-name: 'lupa-icon'
+$lupa-icon-x: 88px
+$lupa-icon-y: 0px
+$lupa-icon-offset-x: -88px
+$lupa-icon-offset-y: 0px
+$lupa-icon-width: 20px
+$lupa-icon-height: 20px
+$lupa-icon-total-width: 123px
+$lupa-icon-total-height: 102px
+$lupa-icon-image: 'sprite.png'
+$lupa-icon: (88px, 0px, -88px, 0px, 20px, 20px, 123px, 102px, 'sprite.png', 'lupa-icon', )
+$menu-li-h-name: 'menu-li-h'
+$menu-li-h-x: 108px
+$menu-li-h-y: 15px
+$menu-li-h-offset-x: -108px
+$menu-li-h-offset-y: -15px
+$menu-li-h-width: 4px
+$menu-li-h-height: 4px
+$menu-li-h-total-width: 123px
+$menu-li-h-total-height: 102px
+$menu-li-h-image: 'sprite.png'
+$menu-li-h: (108px, 15px, -108px, -15px, 4px, 4px, 123px, 102px, 'sprite.png', 'menu-li-h', )
+$phone-h-name: 'phone-h'
+$phone-h-x: 88px
+$phone-h-y: 20px
+$phone-h-offset-x: -88px
+$phone-h-offset-y: -20px
+$phone-h-width: 17px
+$phone-h-height: 20px
+$phone-h-total-width: 123px
+$phone-h-total-height: 102px
+$phone-h-image: 'sprite.png'
+$phone-h: (88px, 20px, -88px, -20px, 17px, 20px, 123px, 102px, 'sprite.png', 'phone-h', )
+$phone-icon-f-name: 'phone-icon-f'
+$phone-icon-f-x: 88px
+$phone-icon-f-y: 62px
+$phone-icon-f-offset-x: -88px
+$phone-icon-f-offset-y: -62px
+$phone-icon-f-width: 17px
+$phone-icon-f-height: 19px
+$phone-icon-f-total-width: 123px
+$phone-icon-f-total-height: 102px
+$phone-icon-f-image: 'sprite.png'
+$phone-icon-f: (88px, 62px, -88px, -62px, 17px, 19px, 123px, 102px, 'sprite.png', 'phone-icon-f', )
+$vk-icon-name: 'vk-icon'
+$vk-icon-x: 44px
+$vk-icon-y: 44px
+$vk-icon-offset-x: -44px
+$vk-icon-offset-y: -44px
+$vk-icon-width: 44px
+$vk-icon-height: 44px
+$vk-icon-total-width: 123px
+$vk-icon-total-height: 102px
+$vk-icon-image: 'sprite.png'
+$vk-icon: (44px, 44px, -44px, -44px, 44px, 44px, 123px, 102px, 'sprite.png', 'vk-icon', )
+$yt-icon-name: 'yt-icon'
+$yt-icon-x: 0px
+$yt-icon-y: 0px
+$yt-icon-offset-x: 0px
+$yt-icon-offset-y: 0px
+$yt-icon-width: 44px
+$yt-icon-height: 44px
+$yt-icon-total-width: 123px
+$yt-icon-total-height: 102px
+$yt-icon-image: 'sprite.png'
+$yt-icon: (0px, 0px, 0px, 0px, 44px, 44px, 123px, 102px, 'sprite.png', 'yt-icon', )
+$spritesheet-width: 123px
+$spritesheet-height: 102px
 $spritesheet-image: 'sprite.png'
-$spritesheet-sprites: ($close-bt, $facebook, $google-plus, $instagram, $linkedin, $lupa-bg, $twitter, )
-$spritesheet: (192px, 128px, 'sprite.png', $spritesheet-sprites, )
+$spritesheet-sprites: ($duble-arrow-right, $email-icon, $fb-icon, $in-icon, $locate-icon, $lupa-icon, $menu-li-h, $phone-h, $phone-icon-f, $vk-icon, $yt-icon, )
+$spritesheet: (123px, 102px, 'sprite.png', $spritesheet-sprites, )
 
-/*
-  The provided mixins are intended to be used with the array-like variables
-
-  .icon-home
-    @include sprite-width($icon-home)
-
-  .icon-email
-    @include sprite($icon-email)
-
-  Example usage in HTML:
-    `display: block` sprite:
-    <div class="icon-home"></div>
-
-  To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
-    // CSS
-    .icon {
-      display: inline-block;
-    }
-
-    // HTML
-    <i class="icon icon-home"></i>
-  */
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home
+//   @include sprite-width($icon-home)
+//
+// .icon-email
+//   @include sprite($icon-email)
+//
+// Example usage in HTML:
+//   `display: block` sprite:
+//   <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//   // CSS
+//   .icon {
+//     display: inline-block;
+//   }
+//
+//   // HTML
+//   <i class="icon icon-home"></i>
 @mixin sprite-width($sprite)
   width: nth($sprite, 5)
 
@@ -136,12 +176,10 @@ $spritesheet: (192px, 128px, 'sprite.png', $spritesheet-sprites, )
   @include sprite-width($sprite)
   @include sprite-height($sprite)
 
-/*
-  The `sprites` mixin generates identical output to the CSS template
-    but can be overridden inside of SASS
-
-  @include sprites($spritesheet-sprites)
-  */
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SASS
+//
+// @include sprites($spritesheet-sprites)
 @mixin sprites($sprites)
   @each $sprite in $sprites
     $sprite-name: nth($sprite, 10)
