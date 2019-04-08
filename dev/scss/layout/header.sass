@@ -1,11 +1,78 @@
 .header 
-    padding-top: 20px
-    &__logo
-    &__slogan
+  padding-top: 23px
+  padding-bottom: 19px
+  &__logo
+  &__slogan
+    +FFGL
+    font-size: 14px
+    color: #000000
+    line-height: 20px
+    max-width: 150px
+    padding-left: 30px
+    margin-top: -8px
+    letter-spacing: 0.4px
+  &__lang
+    padding-top: 1px
+    width: 24px
+  &__call_back
+    margin-right: 22px
+    margin-top: -12px
+  &__phone_city
+    margin-left: auto
+    margin-right: 24px
+    text-align: right
+    margin-top: -6px
+    a
+      display: block
+      &.phone
+        font-size: 16px
+        line-height: 21px
+        color: #000000
+        text-decoration: none
         +FFGL
+        strong
+          +FFGB
+      &.city
+        display: inline-block
+        color: #4473b9
+        font-size: 13px
+        letter-spacing: 0.6px
+        text-decoration: none
+        border-bottom: #4473b9 dashed 1px
+
+.bt-call-back
+  line-height: 50px
+  color: #ffffff
+  +FFGB
+  padding-left: 18px
+  padding-right: 18px
+  display: block
+  text-decoration: none
+  border-radius: 25px
+  text-align: center
+  background-color: #c43939
+
+
+.top-menu
+  background: #fcfcfc
+  ul
+    max-width: 1170px
+    padding-left: 75px
+    padding-right: 75px
+    margin-left: auto
+    margin-right: auto
+    display: flex
+    padding-top: 30px
+    padding-bottom: 30px
+    justify-content: space-between
+    li
+      line-height: 20px
+      list-style: none
+      display: inline-block
+      a
         font-size: 14px
         color: #000000
-        line-height: 20px
-        max-width: 150px
-        padding-left: 30px
-        margin-top: -8px
+        +FFGB
+        text-decoration: none
+        &:hover
+          color: #4473b9
