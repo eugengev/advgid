@@ -34,6 +34,8 @@
 
 .footer__copy { padding-top: 15px; font-family: 'Gilroy'; font-weight: 300; font-style: normal; font-size: 12px; color: #000000; line-height: 20px; }
 
+body { font-family: 'Gilroy'; font-weight: 300; font-style: normal; }
+
 a { color: #4473b9; }
 
 .container { max-width: 1170px; margin-left: auto; margin-right: auto; }
@@ -168,7 +170,7 @@ a { color: #4473b9; }
 
 .proek-idej { position: relative; background: #fcfcfc; padding-top: 155px; padding-bottom: 85px; }
 
-.proek-idej:before { content: ''; position: absolute; left: 50%; top: 0; bottom: 0; display: block; width: 50%; background: url(../images/proek-bg.jpg) no-repeat center; }
+.proek-idej:before { content: ''; position: absolute; left: 50%; top: 0; bottom: 0; display: block; width: 50%; background: url(../images/proek-bg.jpg) no-repeat center; z-index: 10; }
 
 .proek-idej__col-l { width: 50%; font-size: 18px; color: #070707; padding-right: 15px; font-family: 'Gilroy'; font-weight: 300; font-style: normal; }
 
@@ -184,6 +186,62 @@ a { color: #4473b9; }
 
 .proek-idej__col-l .call a { color: #4473b9; text-decoration: none; }
 
-.proek-idej__col-r { width: 50%; }
+.proek-idej__col-r { width: 50%; position: relative; z-index: 20; }
+
+.form-idej { max-width: 470px; margin-left: 70px; padding-top: 10px; }
+
+.form-idej__row { margin-bottom: 20px; }
+
+.form-idej__row input { width: 100%; height: 60px; background: #f6f6f6; border-radius: 30px; display: block; border: none; outline: none; padding: 0 20px; font-size: 15px; color: #181818; }
+
+.form-idej__row textarea { width: 100%; height: 98px; background: #ffffff; border: none; outline: none; border-radius: 50px; padding: 25px; }
+
+.form-idej__row-submit { display: -ms-flexbox; display: flex; }
+
+.form-idej__row-submit input[type=submit] { margin-left: auto; display: block; width: 230px; height: 60px; border-radius: 30px; background: #c43939; color: #fff; border: none; font-family: 'Gilroy'; font-weight: 800; font-style: normal; }
+
+.form-idej__file { position: relative; }
+
+.form-idej__file input[type=file] { opacity: 0; position: absolute; left: 0; right: 0; }
+
+.form-idej__file label { display: inline-block; position: relative; margin-top: 22px; margin-left: 35px; height: 22px; font-size: 12px; line-height: 20px; color: #ffffff; cursor: pointer; border-bottom: #fff dashed 1px; }
+
+.form-idej__file label:before { content: ''; position: absolute; left: -35px; top: 50%; margin-top: -11px; height: 22px; width: 22px; background: url(../images/files-icon.png) no-repeat left center; }
+
+.form-idej__personal { color: #ffffff; font-size: 12px; padding-top: 24px; letter-spacing: 0.4px; }
+
+.form-idej__personal a { color: #ffffff; }
+
+.map-client { padding-top: 125px; padding-bottom: 153px; }
+
+.map-client h2 { font-family: 'Gilroy'; font-weight: 800; font-style: normal; max-width: 650px; margin: 0 auto 77px; font-size: 40px; line-height: 50px; color: #000000; text-align: center; }
+
+.map-client h2:before { content: ''; width: 41px; height: 3px; background: #4473b9; display: block; margin: 0 auto 25px; }
+
+.clients { background: #f5f5f5; padding-top: 90px; position: relative; padding-bottom: 100px; }
+
+.clients h2 { font-family: 'Gilroy'; font-weight: 800; font-style: normal; max-width: 650px; margin: 0 auto 77px; font-size: 40px; line-height: 50px; color: #000000; text-align: center; }
+
+.clients h2:before { content: ''; width: 41px; height: 3px; background: #4473b9; display: block; margin: 0 auto 25px; }
+
+.clients .container { max-width: 1025px; }
+
+.clients .slick-slide { padding-left: 2px; padding-right: 2px; }
+
+.clients .slick-arrow { position: absolute; top: 20px; display: block; width: 60px; height: 60px; border: #4473b9 solid 1px; color: #4473b9; border-radius: 50%; background: none; }
+
+.clients .slick-arrow.slick-prev { left: -180px; }
+
+.clients .slick-arrow.slick-next { right: -180px; }
+
+.clients .slick-dots { padding-top: 70px; display: block; text-align: center; }
+
+.clients .slick-dots li { list-style: none; display: inline-block; margin-left: 5px; margin-right: 5px; width: 10px; height: 10px; overflow: hidden; }
+
+.clients .slick-dots li button { display: block; text-indent: -9999px; width: 10px; height: 10px; border: #4473b9 solid 1px; border-radius: 50%; background: none; cursor: pointer; outline: none; }
+
+.clients .slick-dots li button:hover { background: #4473b9; }
+
+.clients .slick-dots li.slick-active button { background: #4473b9; }
 
 /*# sourceMappingURL=style.css.map */
