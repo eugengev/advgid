@@ -466,6 +466,12 @@ a { color: #4473b9; }
 
 .top_block_page__text_block { position: absolute; top: 186px; left: 50%; -ms-transform: translateX(-50%); transform: translateX(-50%); }
 
-.top_block_page__text_block .title { color: #4473b9; font-size: 48px; line-height: 54px; font-family: 'Gilroy'; font-weight: 800; font-style: normal; }
+.top_block_page__text_block .title { color: #4473b9; font-size: 48px; line-height: 54px; font-family: 'Gilroy'; font-weight: 800; font-style: normal; padding-bottom: 27px; }
+
+.top_block_page__text_block .desc { font-size: 16px; line-height: 25px; letter-spacing: 0.4px; }
+
+.top_block_page__text_block .btn { padding-top: 20px; }
+
+.btn-red { display: inline-block; width: 254px; line-height: 60px; color: #ffffff; font-size: 14px; font-family: 'Gilroy'; font-weight: 800; font-style: normal; border-radius: 30px; background: #c43939; text-align: center; text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */
