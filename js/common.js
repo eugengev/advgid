@@ -45,43 +45,54 @@ if(ieDetector.ieVersion == 10 || ieDetector.ieVersion == 11) {
 $(function() {
 // placeholder
 //-----------------------------------------------------------------------------
+    var windowwidth = $(window).width();
+
     $('input[placeholder], textarea[placeholder]').placeholder();
 
     $('.js-cliet-slider').slick({
       dots: true,
-      infinite: false,
       speed: 300,
-      slidesToShow: 7,
-      slidesToScroll: 7,
+      centerMode: true,
+      variableWidth: true,
+      nextArrow: '<button type="button" class="slick-next">&rarr;</button>',
+      prevArrow: '<button type="button" class="slick-prev">&larr;</button>',
       responsive: [
         {
           breakpoint: 1024,
           settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
-            infinite: true,
-            dots: true
+            dots: false,
+            arrows: false,
+            centerMode: true,
+            variableWidth: true,
           }
         },
-        {
-          breakpoint: 600,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2
-          }
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
       ]
     });
+
+    if (windowwidth < 1024) {
+      $('.js-keysi__list').slick({
+        dots: false,
+        arrows: false,
+        centerMode: true,
+        variableWidth: true,
+        responsive: [
+          {
+            breakpoint: 800,
+            settings: {
+              arrows: false,
+              centerMode: true,
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              arrows: false,
+              centerMode: true,
+            }
+          }
+        ]
+      });
+    }
 
 });
 

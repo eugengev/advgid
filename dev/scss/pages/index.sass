@@ -5,15 +5,27 @@ a
   color: #4473b9
 
 .container
-    max-width: 1170px
-    margin-left: auto
-    margin-right: auto
+  max-width: 1170px
+  margin-left: auto
+  margin-right: auto
+  @media (max-width: 800px)
+    max-width: 440px
+  @media (max-width: 440px)
+    max-width: 320px
 
 #content
   padding-top: 48px
+  @media (max-width: 800px)
+    padding-top: 33px
+  @media (max-width: 440px)
+    padding-top: 23px
 
 .work_list
   padding-bottom: 79px
+  @media (max-width: 800px)
+    padding-bottom: 0
+  @media (max-width: 440px)
+    padding-bottom: 23px
   &__item
     height: 246px
     margin-bottom: 23px
@@ -21,6 +33,9 @@ a
     overflow: hidden
     border-radius: 6px
     margin-right: 20px
+    @media (max-width: 800px)
+      margin-right: 0
+      height: 239px
     &:hover
       box-shadow: 0px 25px 35px 0px rgba(68, 115, 185, 0.25)
     a
@@ -54,6 +69,12 @@ a
       font-size: 18px
       color: #ffffff
       line-height: 18px
+      @media (max-width: 800px)
+        top: 87px
+        left: 0
+        right: 0
+        width: 100%
+        text-align: center
     &--price
       position: absolute
       right: 35px
@@ -69,6 +90,12 @@ a
         display: inline-block
         padding-left: 5px
         padding-right: 5px
+      @media (max-width: 800px)
+        left: 0
+        right: 0
+        text-align: center
+        width: 100%
+        bottom: 85px
     &.item1
       max-width: 573px
       width: 573px
@@ -77,12 +104,22 @@ a
       width: 277px
       .work_list__item--title
         left: 39px
+        @media (max-width: 800px)
+          left: 0
+      @media (max-width: 800px)
+        width: 100%
+        max-width: none
     &.item3
       max-width: 277px
       width: 277px
       margin-right: 0
       .work_list__item--title
         left: 34px
+        @media (max-width: 800px)
+          left: 0
+      @media (max-width: 800px)
+        width: 100%
+        max-width: none
     &.item4
       max-width: 277px
       width: 277px
@@ -90,6 +127,12 @@ a
       .work_list__item--title
         left: 36px
         top: 45px
+        @media (max-width: 800px)
+          left: 0
+          top: 87px
+      @media (max-width: 800px)
+        width: 100%
+        max-width: none
     &.item5
       max-width: 573px
       width: 573px
@@ -98,6 +141,13 @@ a
         left: 47px
         top: 45px
         line-height: 24px
+        @media (max-width: 800px)
+          left: 0
+          top: 87px        
+      @media (max-width: 800px)
+        width: 100%
+        height: 255px
+        max-width: none
     &.item6
       max-width: 277px
       width: 277px
@@ -114,6 +164,9 @@ a
         height: 100%
         background-color: #4473b9
         opacity: 0.9
+      @media (max-width: 800px)
+        width: 100%
+        max-width: none
     &.item7
       max-width: 277px
       width: 277px
@@ -123,6 +176,13 @@ a
         left: 38px
         top: 43px
         line-height: 24px
+        @media (max-width: 800px)
+          left: 0
+          top: 87px        
+      @media (max-width: 800px)
+        width: 100%
+        max-width: none
+        margin-top: 0
 
 .form-work
   position: absolute
@@ -133,6 +193,10 @@ a
   width: 100%
   height: 100%
   padding: 35px 28px 0
+  @media (max-width: 800px)
+    max-width: 280px  
+    left: 50%
+    margin-left: -140px
   &__title
     text-align: center
     font-size: 18px
@@ -185,14 +249,19 @@ a
         display: none
 
 .ourclient
-  background: url(../images/team1-2.png) no-repeat center #fcfcfc
-  padding-top: 79px
+  background: url(../images/team1-2.jpg) no-repeat center bottom #fcfcfc
+  padding-top: 75px
+  @media (max-width: 800px)
+    padding-top: 42px
+    background:  #fcfcfc
+  @media (max-width: 440px)
+    padding-top: 53px
   h2
     text-align: center
     +FFGB
     font-size: 40px
     line-height: 50px
-    padding-bottom: 50px
+    padding-bottom: 39px
     &:before
       content: ''
       display: block
@@ -201,9 +270,25 @@ a
       height: 3px
       background: #4473b9
       margin-bottom: 25px
+      @media (max-width: 440px)
+        margin-bottom: 31px
+    @media (max-width: 800px)
+      font-size: 30px
+      line-height: 40px
+      margin: 0 
+      padding-bottom: 29px
+    @media (max-width: 440px)
+      padding-bottom: 22px
 
 .client-canal
   padding-bottom: 120px
+  margin-left: -13px
+  margin-right: -13px
+  @media (max-width: 800px)
+    max-width: 256px
+    margin-left: auto
+    margin-right: auto
+    padding-bottom: 35px
   &:after
     content: ''
     display: table
@@ -212,7 +297,7 @@ a
     display: block
     width: 116px
     height: 53px
-    margin-bottom: 15px
+    margin-bottom: 17px
     img
       width: 116px
       height: 53px
@@ -226,14 +311,22 @@ a
     margin-left: 72px
     margin-top: 70px
     float: left
+    @media (max-width: 800px)
+      margin-left: 0
+      margin-top: 0
   &__col-r-2
     margin-top: 70px
     margin-right: 72px
     float: right
+    @media (max-width: 800px)
+      margin-top: 0
+      margin-right: 0
 
 .keysi
-  padding-top: 80px
-  padding-bottom: 35px
+  padding-top: 79px
+  padding-bottom: 32px
+  @media (max-width: 800px)
+    padding-top: 60px
   h2
     text-align: center
     +FFGB
@@ -248,10 +341,43 @@ a
       height: 3px
       background: #4473b9
       margin-bottom: 25px
+    @media (max-width: 800px)
+      font-size: 40px
+      line-height: 48px
+      margin: 0 
+      padding-bottom: 23px
+  &__sel-nav
+    display: none
+    @media (max-width: 800px)
+      display: block
+      width: 216px
+      margin-left: auto
+      margin-right: auto
+      padding-bottom: 39px
+      select 
+        height: 60px
+        width: 100%
+        outline: none
+        border: none
+        background: #f6f6f6
+        border-radius: 30px
+        padding-left: 24px
+        font-size: 15px
+        color: #181818
+  &__slider-icon
+    text-align: center
+    display: none
+    @media (max-width: 800px)
+      display: block
+      padding-top: 20px
+    @media (max-width: 440px)
+      padding-top: 40px
   &__tabs-nav
     display: block
     text-align: center
     margin-bottom: 58px
+    @media (max-width: 800px)
+      display: none
     li
       list-style: none
       display: inline-block
@@ -262,11 +388,21 @@ a
         color: #4473b9
         +FFGB
         text-decoration: none
+        &:hover
+          color: #c43939
       &.active
         a
           color: #c43939
   &__list
     display: flex
+    @media (max-width: 800px)
+      width: 768px
+      transform: translateX(-164px)
+    @media (max-width: 440px)
+      width: 320px
+      margin-left: -15px
+      margin-right: -15px
+      transform: translateX(0)
   &__item
     cursor: pointer
     width: 277px
@@ -277,10 +413,21 @@ a
     margin-bottom: 20px
     position: relative
     overflow: hidden
+    @media (max-width: 800px)
+      margin-right: 10px
+      margin-left: 10px
+    @media (max-width: 440px)
+      margin: 0
+      width: 320px
+      img
+        width: 100%
     &:nth-child(4n)
       margin-right: 0
+      @media (max-width: 800px)
+        margin-right: 10px
+        margin-left: 10px
     &-content
-      opacity: 0;
+      opacity: 0
       position: absolute
       left: 0
       right: 0
@@ -341,8 +488,23 @@ a
     width: 50%
     background: url(../images/proek-bg.jpg) no-repeat center
     z-index: 10
+    @media (max-width: 800px)
+      display: none
   padding-top: 155px
   padding-bottom: 85px
+  @media (max-width: 800px)
+    padding-top: 63px
+    padding-bottom: 0
+    .container
+      width: 100%
+      max-width: unset
+      padding-left: 0
+      padding-right: 0
+      .row  
+        display: block
+        flex-wrap: unset
+        margin-left: 0
+        margin-right: 0  
   &__col-l
     width: 50%
     font-size: 18px
@@ -356,6 +518,10 @@ a
       line-height: 50px
       color: #070707
       +FFGB
+      @media (max-width: 800px)
+        font-size: 25px
+        line-height: 33px
+        max-width: 210px
     .title2
       color: #4473b9
       font-size: 34px
@@ -366,6 +532,11 @@ a
       a
         text-decoration: none
         color: #4473b9
+      @media (max-width: 800px)
+        font-size: 25px
+        line-height: 33px
+        max-width: 290px
+        padding-top: 0        
     .call
       font-size: 24px
       padding-top: 5px
@@ -374,15 +545,32 @@ a
       a
         color: #4473b9
         text-decoration: none
+    @media (max-width: 800px)
+      width: 100% 
+      max-width: 440px
+      padding-right: 
+      margin: 0 auto
+      padding-bottom: 52px
+      padding-right: 0
+    @media (max-width: 440px)
+      width: 320px
   &__col-r
     width: 50%
     position: relative
     z-index: 20
+    @media (max-width: 800px)
+      width: 100% 
+      padding-top: 63px
+      padding-bottom: 54px
+      background: url(../images/proek-bg.jpg) no-repeat center
 
 .form-idej
   max-width: 470px
   margin-left: 70px
   padding-top: 10px
+  @media (max-width: 800px)
+    max-width: 320px
+    margin: 0 auto
   &__row
     margin-bottom: 20px
     input 
@@ -416,8 +604,15 @@ a
         color: #fff
         border: none
         +FFGB
+        @media (max-width: 800px)
+          margin: 0 auto
+      @media (max-width: 800px)
+        display: block
   &__file
     position: relative
+    @media (max-width: 800px)
+      max-width: 149px
+      margin: 0 auto
     input[type=file]
       opacity: 0
       position: absolute
@@ -450,10 +645,22 @@ a
     letter-spacing: 0.4px
     a
       color: #ffffff  
+    @media (max-width: 800px)
+      text-align: center
+      max-width: 220px
+      margin: 0 auto
 
 .map-client
   padding-top: 125px
   padding-bottom: 153px
+  @media (max-width: 800px)
+    padding-top: 52px
+    padding-bottom: 213px
+    .container
+      max-width: none
+      width: 100%
+  @media (max-width: 440px)      
+    padding-bottom: 415px
   h2
     +FFGB
     max-width: 650px
@@ -469,16 +676,28 @@ a
       background: #4473b9
       display: block
       margin: 0 auto 25px
+      @media (max-width: 800px)
+        margin-bottom: 33px
+    @media (max-width: 800px)
+      font-size: 30px
+      line-height: 40px
+      max-width: 280px
+      margin-bottom: 60px
 
 .clients
   background: #f5f5f5
   padding-top: 90px
   position: relative
-  padding-bottom: 100px
+  padding-bottom: 80px
+  @media (max-width: 800px)
+    padding-top: 70px
+    padding-bottom: 52px
+    .keysi__slider-icon
+      padding-top: 48px
   h2
     +FFGB
     max-width: 650px
-    margin: 0 auto 77px
+    margin: 0 auto 89px
     font-size: 40px
     line-height: 50px
     color: #000000
@@ -490,8 +709,11 @@ a
       background: #4473b9
       display: block
       margin: 0 auto 25px  
+    @media (max-width: 800px)
+      font-size: 30px
+      margin-bottom: 27px
   .container
-    max-width: 1025px
+    max-width: 1050px
   .slick-slide
     padding-left: 2px
     padding-right: 2px
@@ -505,12 +727,17 @@ a
     color: #4473b9
     border-radius: 50%
     background: none
+    outline: none
     &.slick-prev
-      left: -180px
+      left: -183px
     &.slick-next
-      right: -180px
+      right: -177px
+    &:hover
+      background: #4473b9
+      color: #ffffff
+      box-shadow: 0px 25px 35px 0px rgba(68, 115, 185, 0.25)
   .slick-dots
-    padding-top: 70px 
+    padding-top: 67px
     display: block
     text-align: center
     li
