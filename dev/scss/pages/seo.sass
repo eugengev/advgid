@@ -34,6 +34,9 @@
   background: #c43939
   text-align: center
   text-decoration: none
+  &:hover
+    text-decoration: none
+    color: #ffffff
 
 .tarif
   background: #fcfcfc
@@ -134,7 +137,7 @@
 
 .how-work
   padding-top: 78px
-  padding-bottom: 78px
+  padding-bottom: 96px
   h2
     &:before
       content: ''
@@ -160,6 +163,7 @@
     box-shadow: 0px 30px 40px 0px rgba(68, 115, 185, 0.2)
     position: relative
     padding: 42px 20px 40px 125px
+    transition: background-color 0.5s
     .nomer
       +FFGB
       font-size: 160px
@@ -243,3 +247,178 @@
         color: #ffffff
       .nomer
         color: rgba(255, 255, 255, 0.141)
+
+.nadeg-partner
+  padding-top: 87px
+  padding-bottom: 39px
+  background: #fcfcfc
+  h2
+    &:before
+      content: ''
+      display: block
+      width: 41px
+      height: 3px
+      margin: 0 auto 20px
+      background: #4473b9
+    +FFGB
+    color: #000000
+    font-size: 40px
+    line-height: 62px
+    text-align: center
+    margin: 0
+    padding-bottom: 69px
+  &__item
+    text-align: center
+    min-height: 252px
+    .pic
+      min-height: 88px
+    h3
+      font-size: 18px
+      color: #000000
+      line-height: 20px
+      padding-bottom: 5px
+
+.rewievs_about
+  padding-top: 78px
+  padding-bottom: 78px
+  h2
+    &:before
+      content: ''
+      display: block
+      width: 41px
+      height: 3px
+      margin: 0 auto 20px
+      background: #4473b9
+    +FFGB
+    color: #000000
+    font-size: 40px
+    line-height: 62px
+    text-align: center
+    margin: 0
+    padding-bottom: 65px
+  &__slider
+    margin-bottom: 40px
+    margin-left: -15px
+    margin-right: -15px
+  &__item
+    padding-left: 15px
+    padding-right: 15px
+    display: flex !important
+    &.slick-active
+      .video
+        max-width: 560px
+        border-radius: 7px
+        box-shadow: 0px 25px 35px 0px rgba(123, 138, 143, 0.1)
+        overflow: hidden
+    .desc
+      max-width: 560px
+      padding-left: 73px
+      font-size: 14px
+      color: #000000
+      +FFGB
+      p
+        margin-bottom: 15px
+      .proc
+        color: #4473b9
+        &:after
+          content: '\2191'
+          +FFGL
+          padding-left: 10px
+          font-size: 14px
+      .grey
+        color: #a8a8a8
+  .slick-dots
+    padding-top: 51px
+  .slick-arrow
+    &.slick-prev
+      left: -109px
+      top: 152px
+    &.slick-next
+      right: -109px
+      top: 152px
+
+.forma-sale
+  background: url(../images/forma-sale.jpg) no-repeat center
+  padding-top: 150px
+  padding-bottom: 147px
+  h2
+    color: #ffffff
+    font-size: 40px
+    line-height: 40px
+    text-align: center
+    +FFGB
+    margin-bottom: 20px
+  &__desc
+    font-size: 18px
+    +FFGB
+    color: #ffffff
+    text-align: center
+    padding-bottom: 50px
+
+.form-block
+  max-width: 735px
+  margin-left: auto
+  margin-right: auto
+  .row
+    margin-left: -7.5px
+    margin-right: -7.5px
+  input[type=text],
+  input[type=email]
+    border-width: 1px
+    border-color: rgb(213, 226, 233)
+    border-style: solid
+    background-color: rgb(246, 246, 246)
+    height: 60px
+    width: 100%
+    border-radius: 30px
+    outline: none
+    padding-left: 24px
+    padding-right: 24px
+    +FFGL
+    font-size: 15px
+    color: #181818
+  input[type=submit]
+    height: 60px
+    border: none
+    background: #c43939
+    border-radius: 30px
+    text-align: center
+    font-size: 14px
+    color: #ffffff
+    width: 100%
+  &__person
+    padding-top: 27px
+    letter-spacing: 0.4px
+    text-align: center
+    +FFGL
+    font-size: 12px
+    color: #ffffff
+    a
+      color: #ffffff
+
+.prodvigsite
+  padding-top: 104px
+  background: #fcfcfc
+  padding-bottom: 63px
+  h2
+    &:before
+      content: ''
+      display: block
+      width: 41px
+      height: 3px
+      margin: 0 auto 20px
+      background: #4473b9
+    +FFGB
+    color: #000000
+    font-size: 40px
+    line-height: 62px
+    text-align: center
+    margin: 0
+    padding-bottom: 10px
+  &__desc
+    text-align: center
+    font-size: 15px
+    line-height: 20px
+    color: #000000
+    +FFGB
+    padding-bottom: 31px

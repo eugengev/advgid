@@ -717,49 +717,50 @@ a
   .slick-slide
     padding-left: 2px
     padding-right: 2px
-  .slick-arrow 
-    position: absolute
-    top: 20px
-    display: block
-    width: 60px
-    height: 60px
-    border: #4473b9 solid 1px
-    color: #4473b9
-    border-radius: 50%
-    background: none
-    outline: none
-    &.slick-prev
-      left: -183px
-    &.slick-next
-      right: -177px
-    &:hover
-      background: #4473b9
-      color: #ffffff
-      box-shadow: 0px 25px 35px 0px rgba(68, 115, 185, 0.25)
-  .slick-dots
-    padding-top: 67px
-    display: block
-    text-align: center
-    li
-      list-style: none
-      display: inline-block
-      margin-left: 5px
-      margin-right: 5px
+
+.slick-arrow
+  position: absolute
+  top: 20px
+  display: block
+  width: 60px
+  height: 60px
+  border: #4473b9 solid 1px
+  color: #4473b9
+  border-radius: 50%
+  background: none
+  outline: none
+  &.slick-prev
+    left: -183px
+  &.slick-next
+    right: -177px
+  &:hover
+    background: #4473b9
+    color: #ffffff
+    box-shadow: 0px 25px 35px 0px rgba(68, 115, 185, 0.25)
+.slick-dots
+  padding-top: 67px
+  display: block
+  text-align: center
+  li
+    list-style: none
+    display: inline-block
+    margin-left: 5px
+    margin-right: 5px
+    width: 10px
+    height: 10px
+    overflow: hidden
+    button
+      display: block
+      text-indent: -9999px
       width: 10px
       height: 10px
-      overflow: hidden
+      border: #4473b9 solid 1px
+      border-radius: 50%
+      background: none
+      cursor: pointer
+      outline: none
+      &:hover
+        background: #4473b9
+    &.slick-active
       button
-        display: block
-        text-indent: -9999px
-        width: 10px
-        height: 10px
-        border: #4473b9 solid 1px
-        border-radius: 50%
-        background: none
-        cursor: pointer
-        outline: none
-        &:hover
-          background: #4473b9
-      &.slick-active
-        button
-          background: #4473b9
+        background: #4473b9
