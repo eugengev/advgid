@@ -34,3 +34,212 @@
   background: #c43939
   text-align: center
   text-decoration: none
+
+.tarif
+  background: #fcfcfc
+  padding-top: 90px
+  padding-bottom: 94px
+  h2
+    &:before
+      content: ''
+      display: block
+      width: 41px
+      height: 3px
+      margin: 0 auto 20px
+      background: #4473b9
+    +FFGB
+    color: #000000
+    font-size: 40px
+    line-height: 62px
+    text-align: center
+    margin: 0
+    padding-bottom: 52px
+  &__item
+    background: #fff
+    border-radius: 7px
+    box-shadow: 0px 25px 35px 0px rgba(123, 138, 143, 0.1)
+    max-width: 552px
+    padding: 40px
+    margin-left: -15px
+    &.right
+      margin-left: auto
+      margin-right: -15px
+    .title
+      +FFGB
+      font-size: 18px
+      line-height: 23px
+      padding-bottom: 46px
+    .listwork
+      min-height: 385px
+      li
+        list-style: none
+        line-height: 25px
+        font-size: 14px
+        color: #000000
+        display: block
+        margin-bottom: 15px
+        &.plus:before
+          content: '+'
+          display: block
+          border-width: 1px
+          border-color: rgb(68, 115, 185)
+          border-style: solid
+          border-radius: 50%
+          background-color: rgb(68, 115, 185)
+          box-shadow: 0px 15px 30px 0px rgba(68, 115, 185, 0.25)
+          width: 25px
+          height: 25px
+          float: left
+          text-align: center
+          line-height: 25px
+          color: #ffffff
+          font-size: 24px
+          margin-left: -1px
+          margin-right: 17px
+        &.minus:before
+          content: '-'
+          display: block
+          border-width: 1px
+          border-color: #c43939
+          border-style: solid
+          border-radius: 50%
+          background-color: #c43939
+          box-shadow: 0px 15px 30px 0px rgba(68, 115, 185, 0.25)
+          width: 25px
+          height: 25px
+          float: left
+          text-align: center
+          line-height: 25px
+          color: #ffffff
+          font-size: 24px
+          margin-left: -1px
+          margin-right: 17px
+    .price-order
+      padding-top: 10px
+      padding-right: 20px
+      .order
+        max-width: 177px
+        .btn-red
+          max-width: 100%
+          background: #c43939
+      .price
+        font-size: 30px
+        padding-left: 13px
+        +FFGB
+        line-height: 58px
+        letter-spacing: 1px
+        span
+          font-size: 12px
+          vertical-align: top
+
+.how-work
+  padding-top: 78px
+  padding-bottom: 78px
+  h2
+    &:before
+      content: ''
+      display: block
+      width: 41px
+      height: 3px
+      margin: 0 auto 20px
+      background: #4473b9
+    +FFGB
+    color: #000000
+    font-size: 40px
+    line-height: 62px
+    text-align: center
+    margin: 0
+    padding-bottom: 48px
+  &__item
+    display: block
+    width: 360px
+    height: 195px
+    overflow: hidden
+    margin-bottom: 60px
+    border-radius: 7px
+    box-shadow: 0px 30px 40px 0px rgba(68, 115, 185, 0.2)
+    position: relative
+    padding: 42px 20px 40px 125px
+    .nomer
+      +FFGB
+      font-size: 160px
+      color: rgba(68, 115, 185, 0.141)
+      line-height: 0.125
+      position: absolute
+      right: 09px
+      bottom: 27px    
+    &.it1
+      padding-left: 115px
+    &.it2
+      padding-left: 128px
+      .nomer
+        right: -26px
+    &.it3
+      padding-left: 145px
+      padding-right: 0
+      .nomer
+        right: -41px
+    &.it4
+      padding-left: 143px
+      .nomer
+        right: -49px
+    &.it5
+      padding-left: 127px
+      .nomer
+        right: -26px
+    &.it6
+      padding-left: 115px
+      .nomer
+        right: -26px
+    .text
+      color: #000000
+      font-size: 16px
+      line-height: 20px
+      +FFGB
+    .pic
+      width: 64px
+      height: 64px
+      display: inline-block
+      left: 25px
+      top: 40px
+      position: absolute
+    .pic1
+      background: url(../images/icon-seo-1.png) no-repeat
+    .pic2
+      left: 35px
+      top: 38px
+      background: url(../images/icon-seo-2.png) no-repeat
+    .pic3
+      left: 57px
+      top: 47px
+      background: url(../images/icon-seo-3.png) no-repeat      
+    .pic4
+      left: 59px
+      top: 45px
+      background: url(../images/icon-seo-6.png) no-repeat      
+    .pic5
+      left: 38px
+      top: 45px
+      background: url(../images/icon-seo-5.png) no-repeat      
+    .pic6
+      left: 23px
+      top: 39px
+      background: url(../images/icon-seo-4.png) no-repeat      
+    &:hover
+      background-color: rgb(196, 57, 57)
+      .pic1
+        background: url(../images/icon-seo-1-h.png) no-repeat
+      .pic2
+        background: url(../images/icon-seo-2-h.png) no-repeat
+      .pic3
+        background: url(../images/icon-seo-3-h.png) no-repeat
+      .pic4
+        background: url(../images/icon-seo-6-h.png) no-repeat      
+      .pic5
+        background: url(../images/icon-seo-5-h.png) no-repeat      
+      .pic6
+        background: url(../images/icon-seo-4-h.png) no-repeat      
+      .text
+        color: #ffffff
+      .nomer
+        color: rgba(255, 255, 255, 0.141)

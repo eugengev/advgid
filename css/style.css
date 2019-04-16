@@ -474,4 +474,100 @@ a { color: #4473b9; }
 
 .btn-red { display: inline-block; width: 254px; line-height: 60px; color: #ffffff; font-size: 14px; font-family: 'Gilroy'; font-weight: 800; font-style: normal; border-radius: 30px; background: #c43939; text-align: center; text-decoration: none; }
 
+.tarif { background: #fcfcfc; padding-top: 90px; padding-bottom: 94px; }
+
+.tarif h2 { font-family: 'Gilroy'; font-weight: 800; font-style: normal; color: #000000; font-size: 40px; line-height: 62px; text-align: center; margin: 0; padding-bottom: 52px; }
+
+.tarif h2:before { content: ''; display: block; width: 41px; height: 3px; margin: 0 auto 20px; background: #4473b9; }
+
+.tarif__item { background: #fff; border-radius: 7px; box-shadow: 0px 25px 35px 0px rgba(123, 138, 143, 0.1); max-width: 552px; padding: 40px; margin-left: -15px; }
+
+.tarif__item.right { margin-left: auto; margin-right: -15px; }
+
+.tarif__item .title { font-family: 'Gilroy'; font-weight: 800; font-style: normal; font-size: 18px; line-height: 23px; padding-bottom: 46px; }
+
+.tarif__item .listwork { min-height: 385px; }
+
+.tarif__item .listwork li { list-style: none; line-height: 25px; font-size: 14px; color: #000000; display: block; margin-bottom: 15px; }
+
+.tarif__item .listwork li.plus:before { content: '+'; display: block; border-width: 1px; border-color: #4473b9; border-style: solid; border-radius: 50%; background-color: #4473b9; box-shadow: 0px 15px 30px 0px rgba(68, 115, 185, 0.25); width: 25px; height: 25px; float: left; text-align: center; line-height: 25px; color: #ffffff; font-size: 24px; margin-left: -1px; margin-right: 17px; }
+
+.tarif__item .listwork li.minus:before { content: '-'; display: block; border-width: 1px; border-color: #c43939; border-style: solid; border-radius: 50%; background-color: #c43939; box-shadow: 0px 15px 30px 0px rgba(68, 115, 185, 0.25); width: 25px; height: 25px; float: left; text-align: center; line-height: 25px; color: #ffffff; font-size: 24px; margin-left: -1px; margin-right: 17px; }
+
+.tarif__item .price-order { padding-top: 10px; padding-right: 20px; }
+
+.tarif__item .price-order .order { max-width: 177px; }
+
+.tarif__item .price-order .order .btn-red { max-width: 100%; background: #c43939; }
+
+.tarif__item .price-order .price { font-size: 30px; padding-left: 13px; font-family: 'Gilroy'; font-weight: 800; font-style: normal; line-height: 58px; letter-spacing: 1px; }
+
+.tarif__item .price-order .price span { font-size: 12px; vertical-align: top; }
+
+.how-work { padding-top: 78px; padding-bottom: 78px; }
+
+.how-work h2 { font-family: 'Gilroy'; font-weight: 800; font-style: normal; color: #000000; font-size: 40px; line-height: 62px; text-align: center; margin: 0; padding-bottom: 48px; }
+
+.how-work h2:before { content: ''; display: block; width: 41px; height: 3px; margin: 0 auto 20px; background: #4473b9; }
+
+.how-work__item { display: block; width: 360px; height: 195px; overflow: hidden; margin-bottom: 60px; border-radius: 7px; box-shadow: 0px 30px 40px 0px rgba(68, 115, 185, 0.2); position: relative; padding: 42px 20px 40px 125px; }
+
+.how-work__item .nomer { font-family: 'Gilroy'; font-weight: 800; font-style: normal; font-size: 160px; color: rgba(68, 115, 185, 0.141); line-height: 0.125; position: absolute; right: 09px; bottom: 27px; }
+
+.how-work__item.it1 { padding-left: 115px; }
+
+.how-work__item.it2 { padding-left: 128px; }
+
+.how-work__item.it2 .nomer { right: -26px; }
+
+.how-work__item.it3 { padding-left: 145px; padding-right: 0; }
+
+.how-work__item.it3 .nomer { right: -41px; }
+
+.how-work__item.it4 { padding-left: 143px; }
+
+.how-work__item.it4 .nomer { right: -49px; }
+
+.how-work__item.it5 { padding-left: 127px; }
+
+.how-work__item.it5 .nomer { right: -26px; }
+
+.how-work__item.it6 { padding-left: 115px; }
+
+.how-work__item.it6 .nomer { right: -26px; }
+
+.how-work__item .text { color: #000000; font-size: 16px; line-height: 20px; font-family: 'Gilroy'; font-weight: 800; font-style: normal; }
+
+.how-work__item .pic { width: 64px; height: 64px; display: inline-block; left: 25px; top: 40px; position: absolute; }
+
+.how-work__item .pic1 { background: url(../images/icon-seo-1.png) no-repeat; }
+
+.how-work__item .pic2 { left: 35px; top: 38px; background: url(../images/icon-seo-2.png) no-repeat; }
+
+.how-work__item .pic3 { left: 57px; top: 47px; background: url(../images/icon-seo-3.png) no-repeat; }
+
+.how-work__item .pic4 { left: 59px; top: 45px; background: url(../images/icon-seo-6.png) no-repeat; }
+
+.how-work__item .pic5 { left: 38px; top: 45px; background: url(../images/icon-seo-5.png) no-repeat; }
+
+.how-work__item .pic6 { left: 23px; top: 39px; background: url(../images/icon-seo-4.png) no-repeat; }
+
+.how-work__item:hover { background-color: #c43939; }
+
+.how-work__item:hover .pic1 { background: url(../images/icon-seo-1-h.png) no-repeat; }
+
+.how-work__item:hover .pic2 { background: url(../images/icon-seo-2-h.png) no-repeat; }
+
+.how-work__item:hover .pic3 { background: url(../images/icon-seo-3-h.png) no-repeat; }
+
+.how-work__item:hover .pic4 { background: url(../images/icon-seo-6-h.png) no-repeat; }
+
+.how-work__item:hover .pic5 { background: url(../images/icon-seo-5-h.png) no-repeat; }
+
+.how-work__item:hover .pic6 { background: url(../images/icon-seo-4-h.png) no-repeat; }
+
+.how-work__item:hover .text { color: #ffffff; }
+
+.how-work__item:hover .nomer { color: rgba(255, 255, 255, 0.141); }
+
 /*# sourceMappingURL=style.css.map */
