@@ -692,4 +692,10 @@ a { color: #4473b9; }
 
 .check { font-size: 18px; font-family: 'Gilroy'; font-weight: 800; font-style: normal; text-align: center; padding-top: 21px; padding-bottom: 25px; }
 
+.ourcomand { padding-top: 75px; padding-bottom: 75px; }
+
+.ourcomand h2 { font-family: 'Gilroy'; font-weight: 800; font-style: normal; color: #000000; font-size: 40px; line-height: 62px; text-align: center; margin: 0 0 20px; }
+
+.ourcomand h2:before { content: ''; display: block; width: 41px; height: 3px; margin: 0 auto 20px; background: #4473b9; }
+
 /*# sourceMappingURL=style.css.map */
