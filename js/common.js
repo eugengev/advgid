@@ -112,6 +112,14 @@ $(function() {
       prevArrow: '<button type="button" class="slick-prev">&larr;</button>',
       adaptiveHeight: true
   });
+    $('.ourcomand__slider').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 2,
+        nextArrow: '<button type="button" class="slick-next">&rarr;</button>',
+        prevArrow: '<button type="button" class="slick-prev">&larr;</button>',
+    });
 });
 
 var map;

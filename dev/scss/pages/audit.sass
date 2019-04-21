@@ -1,0 +1,328 @@
+.top_block_page
+  .form-work
+    max-width: 298px
+    overflow: hidden
+    position: relative
+    left: unset
+    right: unset
+    top: unset
+    bottom: unset
+    border-radius: 7px
+    background-color: rgba(68, 115, 185, 0.9)
+    margin-left: auto
+    transform: translateY(-25%)
+    padding: 44px 28px 29px
+    .form-work__title
+      padding-bottom: 17px
+    .form-work__desc
+      padding-bottom: 28px
+    .form-work__row
+      padding-bottom: 15px
+    .form-work__link
+      color: #ffffff
+
+.keysi.tarif
+  background: none
+  padding-top: 110px
+  padding-bottom: 120px
+  h2
+    padding-bottom: 65px
+  .keysi__item-title
+    padding-bottom: 17px
+  .keysi__item-desc
+    line-height: 21px
+    padding-bottom: 9px
+  .keysi__item-btn
+    padding-top: 15px
+    a
+      background: #4473b9
+  .keysi__price
+    font-size: 30px
+    +FFGB
+    line-height: 62px
+    span
+      font-size: 12px
+      vertical-align: top
+  .keysi__item-content
+    opacity: 1
+    padding-top: 57px
+    background: none
+    &:hover
+      background: rgba(68, 115, 185, 0.6)
+      .keysi__item-btn a
+        background: #c43939
+      .keysi__item-pic
+        &.pic1
+          background: url("../images/tarif-icon-1-hover.png") no-repeat center top
+        &.pic2
+          background: url("../images/tarif-icon-2-hover.png") no-repeat center top
+        &.pic3
+          background: url("../images/tarif-icon-3-hover.png") no-repeat center top
+        &.pic4
+          background: url("../images/tarif-icon-4-hover.png") no-repeat center top
+  .keysi__item-pic
+    min-height: 96px
+    text-align: center
+    &.pic1
+      background: url("../images/tarif-icon-1.png") no-repeat center top
+    &.pic2
+      background: url("../images/tarif-icon-2.png") no-repeat center top
+    &.pic3
+      background: url("../images/tarif-icon-3.png") no-repeat center top
+    &.pic4
+      background: url("../images/tarif-icon-4.png") no-repeat center top
+
+.how-work.work2
+  padding-top: 91px
+  background: #fcfcfc
+  padding-bottom: 115px
+  .justify-content-center
+    .how-work__item
+      margin: 0 23px
+  .how-work__item
+    border-radius: 7px
+    background-color: rgb(255, 255, 255)
+    box-shadow: 0px 25px 35px 0px rgba(123, 138, 143, 0.1)
+    .pic1
+      background: url(../images/work-icon-1.png) no-repeat
+    .pic2
+      background: url(../images/work-icon-2.png) no-repeat
+    .pic3
+      background: url(../images/work-icon-3.png) no-repeat
+    .pic4
+      background: url(../images/work-icon-4.png) no-repeat
+    .pic5
+      background: url(../images/work-icon-5.png) no-repeat
+    .text
+      padding-bottom: 12px
+    &:hover
+      color: #FFF
+      .pic1
+        background: url(../images/work-icon-1-hover.png) no-repeat
+      .pic2
+        background: url(../images/work-icon-2-hover.png) no-repeat
+      .pic3
+        background: url(../images/work-icon-3-hover.png) no-repeat
+      .pic4
+        background: url(../images/work-icon-4-hover.png) no-repeat
+      .pic5
+        background: url(../images/work-icon-5-hover.png) no-repeat
+  .how-work__item:hover
+    background-color: rgb(196, 57, 57)
+    box-shadow: 0px 30px 40px 0px rgba(68, 115, 185, 0.2)
+
+.help-block
+  background: url(../images/help-bg.jpg) no-repeat center bottom #fff
+  padding-top: 111px
+  padding-bottom: 50px
+  h2
+    &:before
+      content: ''
+      display: block
+      width: 41px
+      height: 3px
+      margin: 0 auto 20px
+      background: #4473b9
+    +FFGB
+    color: #000000
+    font-size: 40px
+    line-height: 62px
+    text-align: center
+    margin: 0
+    padding-bottom: 4px
+  &__desc
+    +FFGB
+    font-size: 15px
+    text-align: center
+    padding-bottom: 23px
+  &__item
+    cursor: pointer
+    min-height: 50px
+    padding-left: 73px
+    font-size: 15px
+    color: #000000
+    +FFGB
+    font-size: 15px
+    line-height: 20px
+    position: relative
+    &:before
+      content: '?'
+      border-width: 1px
+      border-color: rgb(68, 115, 185)
+      border-style: solid
+      border-radius: 50%
+      background-color: rgb(255, 255, 255)
+      position: absolute
+      width: 48px
+      height: 48px
+      color: #4473b9
+      font-size: 24px
+      line-height: 46px
+      text-align: center
+      +FFGL
+      left: 0
+      top: -4px
+    &:hover
+      color: #4473b9
+      &:before
+        border-width: 1px
+        border-color: rgb(68, 115, 185)
+        border-style: solid
+        border-radius: 50%
+        background-color: #4473b9
+        color: #ffffff
+        box-shadow: 0px 15px 30px 0px rgba(68, 115, 185, 0.25)
+  .cont
+    padding-top: 61px
+  .row
+    margin-bottom: 53px
+    .col-sm-6:nth-last-child(1)
+      .help-block__item
+        text-align: right
+        padding-left: 0
+        padding-right: 80px
+        &:before
+          left: unset
+          right: 0
+  .cont
+    .row:nth-child(1),
+    .row:nth-last-child(1)
+      .help-block__item
+        margin-left: 65px
+        margin-right: 65px
+    .row:nth-child(2),
+    .row:nth-last-child(2)
+      .help-block__item
+        margin-left: 16px
+        margin-right: 16px
+    .row:nth-child(3)
+      .help-block__item
+        margin-left: -10px
+        margin-right: -10px
+
+.how-block
+  background: #fcfcfc
+  padding-top: 89px
+  padding-bottom: 145px
+  h2
+    &:before
+      content: ''
+      display: block
+      width: 41px
+      height: 3px
+      margin: 0 auto 20px
+      background: #4473b9
+    +FFGB
+    color: #000000
+    font-size: 40px
+    line-height: 62px
+    text-align: center
+    margin: 0
+    padding-bottom: 4px
+  &__desc
+    +FFGB
+    font-size: 15px
+    text-align: center
+    min-height: 145px
+  &__item
+    text-align: center
+    .pic
+      min-height: 159px
+    .title
+      font-size: 15px
+      line-height: 20px
+      min-height: 62px
+      +FFGB
+    .desc
+      font-size: 14px
+      line-height: 20px
+      max-width: 320px
+      margin: 0 auto
+
+.proek-idej.ocenka
+  padding-top: 125px
+  padding-bottom: 32px
+  background: #FFFFFF
+  &:before
+    background-image: url("../images/ocenka-bg.jpg")
+  .ocenkalist
+    padding-top: 70px
+    li
+      list-style: none
+      font-size: 16px
+      line-height: 21px
+      padding-left: 94px
+      min-height: 114px
+      padding-right: 80px
+      h3
+        margin: 0
+        +FFGB
+        font-size: 16px
+      &.ocenka1icon
+        background: url(../images/ocenka-1-icon.png) no-repeat 0 0
+      &.ocenka2icon
+        background: url(../images/ocenka-2-icon.png) no-repeat 0 0
+  .form-idej
+    padding-top: 71px
+  .form-idej__personal
+    padding-top: 16px
+  .form-idej__row input[type=submit]
+    background: #c43939
+    color: #FFFFFF
+  .title1.title3
+    padding-top: 56px
+    padding-bottom: 23px
+    span
+      color: #3665ab
+
+.proek-idej.ocenka2
+  padding-bottom: 160px
+
+.proek-idej.ocenkatwo
+  padding-top: 120px
+  padding-bottom: 78px
+  background: #FFFFFF
+  &:before
+    background-image: url("../images/ocenka-bg-2.jpg")
+    left: unset
+    right: 50%
+  .proek-idej__col-r
+    padding-left: 101px
+    font-size: 15px
+    line-height: 24px
+    .title1
+      +FFGB
+      font-size: 40px
+      line-height: 50px
+      padding-bottom: 23px
+    .desc
+      margin-top: 17px
+      border: #4473b9 solid 3px
+      line-height: 24px
+      color: #3665ab
+      padding: 22px 30px
+      +FFGB
+    strong
+      +FFGB
+    .list
+      margin-top: 47px
+      line-height: 27px
+
+
+.ourcomand.review
+  background: #fcfcfc
+  padding-top: 89px
+  h2
+    margin-bottom: 82px
+  .ourcomand__slider-foto
+    border-radius: 0
+    overflow: visible
+    min-width: 150px
+    padding-top: 13px
+  .ourcomand__slider-item
+    padding-top: 53px
+    .title
+      margin-left: 190px
+      padding-top: 0
+    .desc
+      margin-left: 190px

@@ -15,6 +15,18 @@
       line-height: 54px
       +FFGB
       padding-bottom: 27px
+    .title2
+      color: #000
+      font-size: 18px
+      line-height: 62px
+      +FFGB
+      &:before
+        content: ''
+        display: inline-block
+        width: 3px
+        height: 18px
+        background: #4473b9
+        margin-right: 15px
     .desc
       font-size: 16px
       line-height: 25px
@@ -362,7 +374,10 @@
   .row
     margin-left: -7.5px
     margin-right: -7.5px
+  .frow
+    padding-bottom: 17px
   input[type=text],
+  input[type=tel],
   input[type=email]
     border-width: 1px
     border-color: rgb(213, 226, 233)
@@ -556,7 +571,7 @@
 
 .ourcomand
   padding-top: 75px
-  padding-bottom: 75px
+  padding-bottom: 49px
   h2
     &:before
       content: ''
@@ -571,3 +586,53 @@
     line-height: 62px
     text-align: center
     margin: 0 0 20px
+  .slick-list
+    box-shadow: 0px 25px 35px 0px rgba(123, 138, 143, 0.1)
+    background-color: rgba(123, 138, 143, 0.1)
+  &__slider
+    &-item
+      margin-left: auto
+      margin-right: auto
+      border-radius: 7px
+      background-color: rgb(255, 255, 255)
+      width: 559px
+      height: 346px
+      padding: 41px 43px
+      .title
+        padding-top: 18px
+        margin-left: 145px
+        +FFGB
+        font-size: 14px
+        line-height: 25px
+        span
+          +FFGL
+      .opit
+        margin-left: 145px
+      .desc
+        margin-left: 145px
+        font-size: 13px
+        padding-top: 18px
+        min-height: 135px
+    &-foto
+      float: left
+      border-radius: 50%
+      width: 107px
+      height: 107px
+      overflow: hidden
+  .slick-dots
+    padding-top: 98px
+  .slick-arrow
+    &.slick-prev
+      left: -121px
+      top: 159px
+    &.slick-next
+      right: -121px
+      top: 159px
+
+.forma-sale.ask
+  padding-top: 97px
+  background-size: cover
+  padding-bottom: 67px
+  h2
+    line-height: 50px
+    margin-bottom: 30px

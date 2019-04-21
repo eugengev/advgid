@@ -1,0 +1,207 @@
+strong
+  +FFGB
+
+.btn-blue
+  background: #4473b9
+
+.tarif.site
+  padding-bottom: 128px
+  h2
+    padding-bottom: 39px
+  .tarif__item
+    padding: 26px 32px
+    .title
+      text-align: center
+      padding-bottom: 40px
+    .gal
+      padding-left: 42px
+      position: relative
+      &:before
+        position: absolute
+        content: '\2713'
+        display: block
+        border-width: 1px
+        border-color: #4473b9
+        border-style: solid
+        border-radius: 50%
+        background-color: #4473b9
+        box-shadow: 0px 15px 30px 0px rgba(68, 115, 185, 0.25)
+        width: 25px
+        height: 25px
+        float: left
+        text-align: center
+        line-height: 25px
+        color: #ffffff
+        font-size: 12px
+        margin-left: -1px
+        margin-right: 17px
+        left: 0
+        top: 0
+  .radioblock
+    position: relative
+    input
+      opacity: 0
+      position: absolute
+      left: 0
+      right: 0
+    label
+      line-height: 27px
+      display: block
+      height: 27px
+      padding-left: 40px
+      font-size: 13px
+      color: #c43939
+      position: relative
+      cursor: pointer
+      margin: 0
+    &:before
+      content: ''
+      display: block
+      position: absolute
+      left: 0
+      top: 0
+      width: 27px
+      height: 27px
+      border-width: 1px
+      border-color: rgb(213, 226, 233)
+      border-style: solid
+      border-radius: 50%
+      background-color: rgb(246, 246, 246)
+    &:after
+      content: ''
+      display: block
+      background-color: rgb(213, 226, 233)
+      border-radius: 50%
+      width: 15px
+      height: 15px
+      position: absolute
+      left: 6px
+      top: 6px
+  .price-order
+    text-align: center
+    display: block
+    padding-right: 0
+    .price
+      padding-left: 0
+    .order
+      margin-left: auto
+      margin-right: auto
+
+.forma-sale.primer
+  padding-top: 91px
+  background-size: cover
+  padding-bottom: 64px
+  h2
+    &:before
+      content: ''
+      display: block
+      width: 41px
+      height: 3px
+      margin: 0 auto 20px
+      background: #FFF
+    +FFGB
+    color: #FFF
+    font-size: 40px
+    line-height: 62px
+    text-align: center
+    margin: 0 0 10px
+  .forma-sale__desc
+    +FFGL
+    font-size: 18px
+    line-height: 30px
+    padding-bottom: 26px
+  .forma-sale__bref
+    text-align: center
+    font-size: 14px
+    color: #ffffff
+    margin-top: 30px
+
+.how-work.site
+  padding-top: 91px
+  background: #fcfcfc
+  padding-bottom: 115px
+  .justify-content-center
+    .how-work__item
+      margin: 0 23px
+  .how-work__item
+    border-radius: 7px
+    background-color: rgb(255, 255, 255)
+    box-shadow: 0px 25px 35px 0px rgba(123, 138, 143, 0.1)
+    .pic1
+      background: url(../images/work-site-1.png) no-repeat
+    .pic2
+      background: url(../images/work-site-2.png) no-repeat
+    .pic3
+      background: url(../images/work-site-3.png) no-repeat
+    .pic4
+      background: url(../images/work-site-4.png) no-repeat
+    .pic5
+      background: url(../images/work-site-5.png) no-repeat
+    .text
+      padding-bottom: 12px
+    &:hover
+      color: #FFF
+      .pic1
+        background: url(../images/work-site-1-hover.png) no-repeat
+      .pic2
+        background: url(../images/work-site-2-hover.png) no-repeat
+      .pic3
+        background: url(../images/work-site-3-hover.png) no-repeat
+      .pic4
+        background: url(../images/work-site-4-hover.png) no-repeat
+      .pic5
+        background: url(../images/work-site-5-hover.png) no-repeat
+  .how-work__item:hover
+    background-color: rgb(196, 57, 57)
+    box-shadow: 0px 30px 40px 0px rgba(68, 115, 185, 0.2)
+
+.hard-work
+  padding-top: 106px
+  padding-bottom: 64px
+  h2
+    &:before
+      content: ''
+      display: block
+      width: 41px
+      height: 3px
+      margin: 0 auto 20px
+      background: #4473b9
+    +FFGB
+    color: #000
+    font-size: 40px
+    line-height: 62px
+    text-align: center
+    margin: 0 0 5px
+  &__desc
+    font-size: 15px
+    line-height: 20px
+    +FFGB
+    text-align: center
+    min-height: 81px
+  &__price
+    +FFGB
+    text-align: center
+    font-size: 21px
+    line-height: 20px
+    color: #4473b9
+    min-height: 70px
+  &__item
+    .pic
+      border-radius: 7px
+      background-color: rgb(255, 255, 255)
+      box-shadow: 0px 25px 35px 0px rgba(123, 138, 143, 0.1)
+      margin-bottom: 18px
+      img
+        border-radius: 7px
+        width: 100%
+    .title
+      font-size: 18px
+      +FFGB
+      line-height: 62px
+      text-align: center
+    .desc
+      text-align: center
+      font-size: 15px
+      line-height: 20px
+  .btn-row
+    margin-top: 40px
