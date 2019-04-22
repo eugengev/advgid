@@ -92,6 +92,39 @@ $(function() {
           }
         ]
       });
+
+      $('.js_keysi__list').slick({
+        dots: false,
+        arrows: false,
+        centerMode: true,
+        variableWidth: true,
+        responsive: [
+          {
+            breakpoint: 800,
+            settings: {
+              arrows: false,
+              centerMode: true,
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              arrows: false,
+              centerMode: true,
+            }
+          }
+        ]
+      });      
+
+      $('.js-slider-help').slick({
+        dots: false,
+        arrows: false,
+      });    
+
+      $('.js-how-block').slick({
+        dots: false,
+        arrows: false,
+      });         
     }
 
     $('.rewievs_about__slider').slick({

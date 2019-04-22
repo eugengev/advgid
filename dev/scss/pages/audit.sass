@@ -1,4 +1,4 @@
-.top_block_page
+.top_block_page.audit
   .form-work
     max-width: 298px
     overflow: hidden
@@ -20,13 +20,71 @@
       padding-bottom: 15px
     .form-work__link
       color: #ffffff
+    @media (max-width: 800px)
+      display: none
+  .hidden-md
+    display: block
+  .visible-md
+    display: none
+  @media (max-width: 1200px)
+    .hidden-md
+      display: none
+    .visible-md
+      display: block
+    img
+      height: 627px
+      width: auto
+      position: relative
+      left: 50%
+      transform: translateX(-50%)
+      max-width: none
+.top_block_page__text_block
+  @media (max-width: 1200px)
+    top: 154px
+    text-align: center
+    .col-sm-5
+      display: none
+    .title
+      max-width: 320px
+      margin-left: auto
+      margin-right: auto
+      font-size: 32px
+      line-height: 35px
+      padding-bottom: 14px
+    .title2
+      max-width: 320px
+      margin-left: auto
+      margin-right: auto
+      font-size: 18px
+      line-height: 24px
+      padding-bottom: 10px
+      &:before
+        display: none
+    .desc
+      max-width: 320px
+      margin-left: auto
+      margin-right: auto
+      line-height: 23px
+    .btn
+      padding-top: 34px
+
 
 .keysi.tarif
   background: none
   padding-top: 110px
   padding-bottom: 120px
+  @media (max-width: 1200px)
+    padding-top: 55px
+    padding-bottom: 55px
+    .keysi__slider-icon
+      padding-top: 25px
   h2
     padding-bottom: 65px
+    @media (max-width: 1200px)
+      padding-bottom: 16px
+      font-size: 30px
+      &:before
+        margin-bottom: 6px
   .keysi__item-title
     padding-bottom: 17px
   .keysi__item-desc
@@ -76,23 +134,50 @@
   padding-top: 91px
   background: #fcfcfc
   padding-bottom: 115px
+  @media (max-width: 1200px)
+    padding-top: 53px
+    padding-bottom: 38px  
+    h2
+      padding-bottom: 32px
+      font-size: 30px
+      &:before
+        margin-bottom: 6px    
   .justify-content-center
     .how-work__item
       margin: 0 23px
+      @media (max-width: 1200px)
+        margin: 0 0 18px
   .how-work__item
     border-radius: 7px
     background-color: rgb(255, 255, 255)
     box-shadow: 0px 25px 35px 0px rgba(123, 138, 143, 0.1)
+    @media (max-width: 1200px)
+      width: 100%
+      padding-left: 142px
+      padding-right: 60px
+      margin-bottom: 18px
     .pic1
       background: url(../images/work-icon-1.png) no-repeat
+      @media (max-width: 1200px)
+        left: 50px
+        top: 43px
     .pic2
       background: url(../images/work-icon-2.png) no-repeat
     .pic3
       background: url(../images/work-icon-3.png) no-repeat
+      @media (max-width: 1200px)
+        left: 47px
+        top: 37px      
     .pic4
       background: url(../images/work-icon-4.png) no-repeat
+      @media (max-width: 1200px)
+        left: 47px
+        top: 30px            
     .pic5
       background: url(../images/work-icon-5.png) no-repeat
+      @media (max-width: 1200px)
+        left: 38px
+        top: 32px            
     .text
       padding-bottom: 12px
     &:hover
@@ -115,6 +200,12 @@
   background: url(../images/help-bg.jpg) no-repeat center bottom #fff
   padding-top: 111px
   padding-bottom: 50px
+  @media (max-width: 1200px)
+    background: none
+    padding-top: 99px
+    padding-bottom: 86px  
+    .keysi__slider-icon
+      padding-top: 12px
   h2
     &:before
       content: ''
@@ -130,11 +221,18 @@
     text-align: center
     margin: 0
     padding-bottom: 4px
+    @media (max-width: 1200px)
+      padding-bottom: 32px
+      font-size: 30px
+      &:before
+        margin-bottom: 14px      
   &__desc
     +FFGB
     font-size: 15px
     text-align: center
     padding-bottom: 23px
+    @media (max-width: 1200px)
+      display: none
   &__item
     cursor: pointer
     min-height: 50px
@@ -145,6 +243,8 @@
     font-size: 15px
     line-height: 20px
     position: relative
+    @media (max-width: 1200px)
+      margin-bottom: 35px
     &:before
       content: '?'
       border-width: 1px
@@ -162,6 +262,8 @@
       +FFGL
       left: 0
       top: -4px
+      @media (max-width: 1200px)
+        top: 0
     &:hover
       color: #4473b9
       &:before
@@ -174,8 +276,22 @@
         box-shadow: 0px 15px 30px 0px rgba(68, 115, 185, 0.25)
   .cont
     padding-top: 61px
+    @media (max-width: 1200px)
+      padding-top: 46px
+      display: none
+  .slider
+    display: none
+    @media (max-width: 1200px)
+      padding-top: 46px
+      display: block
+      margin-left: 30px
+      margin-right: 30px
+      br
+        display: none
   .row
     margin-bottom: 53px
+    @media (max-width: 1200px)
+      margin-bottom: 0
     .col-sm-6:nth-last-child(1)
       .help-block__item
         text-align: right
@@ -184,21 +300,33 @@
         &:before
           left: unset
           right: 0
+        @media (max-width: 1200px)
+          margin-left: 45px
+          margin-right: 45px
   .cont
     .row:nth-child(1),
     .row:nth-last-child(1)
       .help-block__item
         margin-left: 65px
         margin-right: 65px
+        @media (max-width: 1200px)
+          margin-left: 45px
+          margin-right: 45px        
     .row:nth-child(2),
     .row:nth-last-child(2)
       .help-block__item
         margin-left: 16px
         margin-right: 16px
+        @media (max-width: 1200px)
+          margin-left: 45px
+          margin-right: 45px        
     .row:nth-child(3)
       .help-block__item
         margin-left: -10px
         margin-right: -10px
+        @media (max-width: 1200px)
+          margin-left: 45px
+          margin-right: 45px        
 
 .how-block
   background: #fcfcfc
@@ -219,15 +347,29 @@
     text-align: center
     margin: 0
     padding-bottom: 4px
+    @media (max-width: 1200px)
+      padding-bottom: 1px
+      font-size: 30px
+      &:before
+        margin-bottom: 14px      
   &__desc
     +FFGB
     font-size: 15px
     text-align: center
     min-height: 145px
+    @media (max-width: 1200px)
+      max-width: 300px
+      margin: 0 auto
+      min-height: 95px
   &__item
     text-align: center
     .pic
       min-height: 159px
+      @media (max-width: 1200px)
+        text-align: center
+        img
+          margin-left: auto
+          margin-right: auto
     .title
       font-size: 15px
       line-height: 20px
