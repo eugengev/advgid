@@ -744,7 +744,8 @@ a { color: #4473b9; }
 
 .top_block_page.audit .visible-md { display: none; }
 
-@media (max-width: 1200px) { .top_block_page.audit .hidden-md { display: none; }
+@media (max-width: 1200px) { .top_block_page.audit { overflow: hidden; }
+  .top_block_page.audit .hidden-md { display: none; }
   .top_block_page.audit .visible-md { display: block; }
   .top_block_page.audit img { height: 627px; width: auto; position: relative; left: 50%; -ms-transform: translateX(-50%); transform: translateX(-50%); max-width: none; } }
 
@@ -920,7 +921,7 @@ a { color: #4473b9; }
 
 .how-block__desc { font-family: 'Gilroy'; font-weight: 800; font-style: normal; font-size: 15px; text-align: center; min-height: 145px; }
 
-@media (max-width: 1200px) { .how-block__desc { max-width: 300px; margin: 0 auto; } }
+@media (max-width: 1200px) { .how-block__desc { max-width: 300px; margin: 0 auto; min-height: 95px; } }
 
 .how-block__item { text-align: center; }
 
@@ -933,11 +934,18 @@ a { color: #4473b9; }
 
 .how-block__item .desc { font-size: 14px; line-height: 20px; max-width: 320px; margin: 0 auto; }
 
+@media (max-width: 1200px) { .how-block { padding-bottom: 80px; }
+  .how-block .keysi__slider-icon { padding-top: 62px; } }
+
 .proek-idej.ocenka { padding-top: 125px; padding-bottom: 32px; background: #FFFFFF; }
+
+@media (max-width: 1200px) { .proek-idej.ocenka { padding-top: 56px; } }
 
 .proek-idej.ocenka:before { background-image: url("../images/ocenka-bg.jpg"); }
 
 .proek-idej.ocenka .ocenkalist { padding-top: 70px; }
+
+@media (max-width: 1200px) { .proek-idej.ocenka .ocenkalist { padding-top: 77px; } }
 
 .proek-idej.ocenka .ocenkalist li { list-style: none; font-size: 16px; line-height: 21px; padding-left: 94px; min-height: 114px; padding-right: 80px; }
 
@@ -956,6 +964,8 @@ a { color: #4473b9; }
 .proek-idej.ocenka .title1.title3 { padding-top: 56px; padding-bottom: 23px; }
 
 .proek-idej.ocenka .title1.title3 span { color: #3665ab; }
+
+@media (max-width: 1200px) { .proek-idej.ocenka .title1 { max-width: none; font-size: 30px; line-height: 40px; padding-left: 55px; } }
 
 .proek-idej.ocenka2 { padding-bottom: 160px; }
 
