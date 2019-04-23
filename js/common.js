@@ -154,7 +154,7 @@ $(function() {
         prevArrow: '<button type="button" class="slick-prev">&larr;</button>',
     });
 });
-
+/*
 var map;
 function initMap() {
     var myLatLng = {lat: 49.4225715, lng: 26.9763337};
@@ -174,4 +174,4 @@ function initMap() {
         title: 'ТОчка на карте'
     });
 }
-
+*/
