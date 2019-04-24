@@ -1,5 +1,18 @@
 .top_block_page
   position: relative
+  @media (max-width: 1200px)
+    overflow: hidden
+    .hidden-md
+      display: none
+    .visible-md
+      display: block
+    img
+      height: 627px
+      width: auto
+      position: relative
+      left: 50%
+      transform: translateX(-50%)
+      max-width: none
   img
     margin-left: auto
     margin-right: auto
@@ -57,6 +70,11 @@
   background: #fcfcfc
   padding-top: 90px
   padding-bottom: 94px
+  @media (max-width: 1200px)
+    padding-top: 59px
+    padding-bottom: 44px
+    .keysi__slider-icon
+      padding-top: 11px
   h2
     &:before
       content: ''
@@ -72,6 +90,11 @@
     text-align: center
     margin: 0
     padding-bottom: 52px
+    @media (max-width: 1200px)
+      padding-bottom: 26px
+      font-size: 30px
+      &:before
+        margin-bottom: 22px
   &__item
     background: #fff
     border-radius: 7px
@@ -79,9 +102,17 @@
     max-width: 552px
     padding: 40px
     margin-left: -15px
+    @media (max-width: 1200px)
+      margin: 0 -15px
+      padding: 50px 48px
+      box-shadow: none
+    @media (max-width: 440px)
+      padding: 58px 20px
     &.right
       margin-left: auto
       margin-right: -15px
+      @media (max-width: 1200px)
+        margin: 0 -15px
     .title
       +FFGB
       font-size: 18px
@@ -132,14 +163,28 @@
           font-size: 24px
           margin-left: -1px
           margin-right: 17px
+        @media (max-width: 440px)
+          letter-spacing: -0.4px
     .price-order
       padding-top: 10px
       padding-right: 20px
+      @media (max-width: 1200px)
+        padding-right: 0
       .order
         max-width: 177px
         .btn-red
           max-width: 100%
           background: #c43939
+        @media (max-width: 1200px)
+          max-width: none
+          padding-top: 30px
+          text-align: center
+          width: 100%
+          .btn-red
+            display: block
+            margin-left: auto
+            margin-right: auto
+            max-width: 180px
       .price
         font-size: 30px
         padding-left: 13px
@@ -149,10 +194,23 @@
         span
           font-size: 12px
           vertical-align: top
-
+        @media (max-width: 1200px)
+          padding-left: 0
+          padding-top: 10px
+          width: 100%
+          text-align: center
+          line-height: normal
+          span
+            display: block
 .how-work
   padding-top: 78px
   padding-bottom: 96px
+  @media (max-width: 1200px)
+    padding-top: 66px
+    padding-bottom: 64px
+    .btn-block
+      margin-top: 20px
+      text-align: center
   h2
     &:before
       content: ''
@@ -168,6 +226,11 @@
     text-align: center
     margin: 0
     padding-bottom: 48px
+    @media (max-width: 1200px)
+      padding-bottom: 26px
+      font-size: 30px
+      &:before
+        margin-bottom: 22px
   &__item
     display: block
     width: 360px
@@ -179,6 +242,15 @@
     position: relative
     padding: 42px 20px 40px 125px
     transition: background-color 0.5s
+    @media (max-width: 1200px)
+      width: 100%
+      padding-left: 130px
+      margin-bottom: 20px
+    @media (max-width: 440px)
+      padding-left: 115px !important
+      padding-top: 32px
+      br
+        display: none
     .nomer
       +FFGB
       font-size: 160px
@@ -189,25 +261,37 @@
       bottom: 27px    
     &.it1
       padding-left: 115px
+      @media (max-width: 1200px)
+        padding-left: 130px
     &.it2
       padding-left: 128px
+      @media (max-width: 1200px)
+        padding-left: 130px
       .nomer
         right: -26px
     &.it3
       padding-left: 145px
       padding-right: 0
+      @media (max-width: 1200px)
+        padding-left: 130px
       .nomer
         right: -41px
     &.it4
       padding-left: 143px
+      @media (max-width: 1200px)
+        padding-left: 130px
       .nomer
         right: -49px
     &.it5
       padding-left: 127px
+      @media (max-width: 1200px)
+        padding-left: 130px
       .nomer
         right: -26px
     &.it6
       padding-left: 115px
+      @media (max-width: 1200px)
+        padding-left: 130px
       .nomer
         right: -26px
     .text
@@ -224,6 +308,8 @@
       position: absolute
     .pic1
       background: url(../images/icon-seo-1.png) no-repeat
+      @media (max-width: 1200px)
+        left: 39px
     .pic2
       left: 35px
       top: 38px
@@ -231,19 +317,27 @@
     .pic3
       left: 57px
       top: 47px
-      background: url(../images/icon-seo-3.png) no-repeat      
+      background: url(../images/icon-seo-3.png) no-repeat
+      @media (max-width: 1200px)
+        left: 44px
     .pic4
       left: 59px
       top: 45px
-      background: url(../images/icon-seo-6.png) no-repeat      
+      background: url(../images/icon-seo-6.png) no-repeat
+      @media (max-width: 1200px)
+        left: 45px
     .pic5
       left: 38px
       top: 45px
-      background: url(../images/icon-seo-5.png) no-repeat      
+      background: url(../images/icon-seo-5.png) no-repeat
+      @media (max-width: 1200px)
+        left: 42px
     .pic6
       left: 23px
       top: 39px
-      background: url(../images/icon-seo-4.png) no-repeat      
+      background: url(../images/icon-seo-4.png) no-repeat
+      @media (max-width: 1200px)
+        left: 37px
     &:hover
       background-color: rgb(196, 57, 57)
       .pic1
@@ -267,6 +361,8 @@
   padding-top: 87px
   padding-bottom: 39px
   background: #fcfcfc
+  @media (max-width: 1200px)
+    padding-bottom: 60px
   h2
     &:before
       content: ''
@@ -282,20 +378,49 @@
     text-align: center
     margin: 0
     padding-bottom: 69px
+    @media (max-width: 1200px)
+      padding-bottom: 0
+      font-size: 30px
+      line-height: 41px
+      max-width: 330px
+      margin: 0 auto 82px
+      br
+        display: none
+      &:before
+        margin-bottom: 25px
+    @media (max-width: 1200px)
+      width: 100vw
+      max-width: 500px
+      position: relative
+      left: 50%
+      transform: translateX(-50%)
   &__item
     text-align: center
     min-height: 252px
     .pic
       min-height: 88px
+      @media (max-width: 1200px)
+        img
+          display: block
+          margin: 0 auto
     h3
       font-size: 18px
       color: #000000
       line-height: 20px
       padding-bottom: 5px
+  @media (max-width: 1200px)
+    .keysi__slider-icon
+      padding-top: 24px
 
 .rewievs_about
   padding-top: 78px
   padding-bottom: 78px
+  @media (max-width: 1200px)
+    padding-top: 61px
+    padding-bottom: 59px
+    .btn-block
+      margin-top: 48px
+      text-align: center
   h2
     &:before
       content: ''
@@ -311,10 +436,18 @@
     text-align: center
     margin: 0
     padding-bottom: 65px
+    @media (max-width: 1200px)
+      padding-bottom: 20px
+      font-size: 30px
+      line-height: 41px
+      &:before
+        margin-bottom: 30px
   &__slider
     margin-bottom: 40px
     margin-left: -15px
     margin-right: -15px
+    @media (max-width: 1200px)
+      margin-bottom: 5px
   &__item
     padding-left: 15px
     padding-right: 15px
@@ -331,8 +464,17 @@
       font-size: 14px
       color: #000000
       +FFGB
+      @media (max-width: 1200px)
+        padding-left: 59px
+        padding-top: 28px
+        padding-right: 100px
+      @media (max-width: 440px)
+        padding-left: 0
+        padding-right: 0
       p
         margin-bottom: 15px
+        @media (max-width: 1200px)
+          margin-bottom: 12px
       .proc
         color: #4473b9
         &:after
@@ -356,6 +498,10 @@
   background: url(../images/forma-sale.jpg) no-repeat center
   padding-top: 150px
   padding-bottom: 147px
+  background-size: cover
+  @media (max-width: 1200px)
+    padding-top: 75px
+    padding-bottom: 37px
   h2
     color: #ffffff
     font-size: 40px
@@ -363,25 +509,42 @@
     text-align: center
     +FFGB
     margin-bottom: 20px
+    @media (max-width: 1200px)
+      margin: 0 auto 34px
+      font-size: 30px
+      max-width: 260px
+      &:before
+        margin-bottom: 0
   &__desc
     font-size: 18px
     +FFGB
     color: #ffffff
     text-align: center
     padding-bottom: 50px
+    @media (max-width: 1200px)
+      max-width: 270px
+      margin: 0 auto
+      padding-bottom: 44px
 
 .form-block
   max-width: 735px
   margin-left: auto
   margin-right: auto
+  @media (max-width: 1200px)
+    max-width: 255px
   .row
     margin-left: -7.5px
     margin-right: -7.5px
+    @media (max-width: 1200px)
+      margin-right: 0
+      .col-lg-4
+        margin-bottom: 17px
   .frow
     padding-bottom: 17px
   input[type=text],
   input[type=tel],
-  input[type=email]
+  input[type=email],
+  textarea
     border-width: 1px
     border-color: rgb(213, 226, 233)
     border-style: solid
@@ -395,6 +558,10 @@
     +FFGL
     font-size: 15px
     color: #181818
+  textarea
+    padding: 20px 24px
+    border: none
+    outline: none
   input[type=submit]
     height: 60px
     border: none
@@ -413,11 +580,17 @@
     color: #ffffff
     a
       color: #ffffff
+    @media (max-width: 1200px)
+      padding-top: 9px
 
 .prodvigsite
   padding-top: 104px
   background: #fcfcfc
   padding-bottom: 69px
+  @media (max-width: 1200px)
+    padding-top: 50px
+    .keysi__slider-icon
+      padding-top: 30px
   h2
     &:before
       content: ''
@@ -433,6 +606,13 @@
     text-align: center
     margin: 0
     padding-bottom: 10px
+    @media (max-width: 1200px)
+      margin: 0 auto 10px
+      font-size: 30px
+      line-height: normal
+      max-width: 270px
+      &:before
+        margin-bottom: 37px
   &__desc
     text-align: center
     font-size: 15px
@@ -440,6 +620,8 @@
     color: #000000
     +FFGB
     padding-bottom: 31px
+    @media (max-width: 1200px)
+      padding-bottom: 43px
   .img-pic
     border-radius: 3px
     background-color: rgb(255, 255, 255)
@@ -452,6 +634,9 @@
     position: relative
     padding-left: 7px
     min-height: 133px
+    @media (max-width: 1200px)
+      max-width: 320px
+      margin: 0 auto 10px
     h4
       +FFGB
       color: #000000
@@ -482,19 +667,67 @@
       .nomer
         left: unset
         right: -63px
+    @media (max-width: 1200px)
+      text-align: center
+      padding-left: 0
+      .nomer
+        left: unset
+        top: unset
+        position: relative
+        margin: 0 auto
+        display: block
+  .pics
+    @media (max-width: 1200px)
+      max-width: 320px
+      margin: 0 auto 50px
+      img
+        max-width: 100%
 
 .nadeg-partner.work
   padding-top: 124px
+  @media (max-width: 1200px)
+    padding-top: 67px
+    .keysi__slider-icon
+      padding-top: 30px
   h2
-    padding-bottom: 110px
-  .nadeg-partner__item 
+    padding-bottom: 0
+    max-width: 300px
+    &:before
+      @media (max-width: 1200px)
+        margin-bottom: 28px
+  .nadeg-partner__item
     min-height: 220px
+    @media (max-width: 1200px)
+      min-height: 137px
     .pic
       line-height: 88px
+  .js-nadeg-partner-work
+    width: 100vw
+    position: relative
+    left: 50%
+    transform: translateX(-50%)
+    @media (max-width: 440px)
+      left: unset
+      transform: translateX(0)
+      width: auto
+
+.ourclient.seo
+  background: #fff
+  @media (max-width: 1200px)
+    padding-bottom: 15px
+    h2
+      padding-bottom: 26px
+      &:before
+        margin-bottom: 28px
 
 .keisi
   padding-top: 89px
   padding-bottom: 78px
+  @media (max-width: 1200px)
+    padding-top: 50px
+    padding-bottom: 28px
+    .container
+      max-width: 355px
   h2
     &:before
       content: ''
@@ -509,18 +742,25 @@
     line-height: 62px
     text-align: center
     margin: 0
-    padding-bottom: 7px 
+    padding-bottom: 7px
+    @media (max-width: 1200px)
+      font-size: 30px
   &__desc
     font-size: 15px
     color: #000000
     +FFGB
     text-align: center
     margin-bottom: 75px
+    @media (max-width: 1200px)
+      margin-bottom: 30px
   &__item
     // margin-left: -15px
     // margin-right: -15px
     &_cont
       transform: translateX(-23px)
+      @media (max-width: 1200px)
+        transform: translateX(0)
+        padding-top: 45px
     h3
       font-size: 18px
       color: #000000
@@ -536,6 +776,11 @@
       line-height: 13px
       vertical-align: middle
       padding-right: 30px
+      @media (max-width: 1200px)
+        padding-right: 10px
+        padding-bottom: 20px
+        display: block
+        float: left
     th
       border: none
       color: #c43939
@@ -543,11 +788,18 @@
       line-height: 22px
       vertical-align: middle
       padding-right: 10px
+      @media (max-width: 1200px)
+        padding-right: 10px
+        padding-bottom: 20px
+        display: block
+        float: left
   .desc
     font-size: 14px
     padding-top: 18px
     line-height: 28px
     padding-bottom: 31px
+    @media (max-width: 1200px)
+      padding-top: 0
   .title
     padding-bottom: 13px
   ul
@@ -565,16 +817,22 @@
     &.slick-next
       right: -119px
       top: 135px
-.check
-  font-size: 18px
-  +FFGB
-  text-align: center
-  padding-top: 21px
-  padding-bottom: 25px
+  .check
+    font-size: 18px
+    +FFGB
+    text-align: center
+    padding-top: 21px
+    padding-bottom: 25px
+    @media (max-width: 1200px)
+      padding-top: 37px
 
 .ourcomand
   padding-top: 75px
   padding-bottom: 49px
+  @media (max-width: 1200px)
+    padding-bottom: 40px
+    .keysi__slider-icon
+      padding-top: 47px
   h2
     &:before
       content: ''
@@ -589,6 +847,8 @@
     line-height: 62px
     text-align: center
     margin: 0 0 20px
+    @media (max-width: 1200px)
+      font-size: 30px
   .slick-list
     box-shadow: 0px 25px 35px 0px rgba(123, 138, 143, 0.1)
     background-color: rgba(123, 138, 143, 0.1)
@@ -601,6 +861,15 @@
       width: 559px
       height: 346px
       padding: 41px 43px
+      @media (max-width: 1200px)
+        width: auto
+        height: auto
+        padding: 18px 93px
+        text-align: center
+        min-height: 540px
+      @media (max-width: 1200px)
+        padding-left: 20px
+        padding-right: 20px
       .title
         padding-top: 18px
         margin-left: 145px
@@ -609,19 +878,34 @@
         line-height: 25px
         span
           +FFGL
+        @media (max-width: 1200px)
+          margin-left: 0
       .opit
         margin-left: 145px
+        @media (max-width: 1200px)
+          margin-left: 0
       .desc
         margin-left: 145px
         font-size: 13px
         padding-top: 18px
         min-height: 135px
+        @media (max-width: 1200px)
+          margin-left: 0
+          min-height: 0
     &-foto
       float: left
       border-radius: 50%
       width: 107px
       height: 107px
       overflow: hidden
+      @media (max-width: 1200px)
+        float: none
+        width: auto
+        border-radius: 0
+        height: auto
+        img
+          border-radius: 50%
+          margin: 0 auto
   .slick-dots
     padding-top: 98px
   .slick-arrow
@@ -636,6 +920,25 @@
   padding-top: 97px
   background-size: cover
   padding-bottom: 67px
+  @media (max-width: 1200px)
+    padding-top: 50px
+    padding-bottom: 27px
+    .form-block
+      max-width: 340px
+      textarea
+        height: 98px
+        border-radius: 40px
+      .frow
+        padding-bottom: 0
+      .form-idej__file
+        margin-top: -12px
+      .form-block__person
+        padding-top: 0
   h2
     line-height: 50px
     margin-bottom: 30px
+    @media (max-width: 1200px)
+      font-size: 30px
+      max-width: 300px
+      line-height: 42px
+      margin-bottom: 51px

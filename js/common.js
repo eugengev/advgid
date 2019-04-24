@@ -116,15 +116,49 @@ $(function() {
         ]
       });      
 
-      $('.js-slider-help').slick({
-        dots: false,
-        arrows: false,
-      });    
+        $('.js-slider-help').slick({
+            dots: false,
+            arrows: false,
+        });
 
-      $('.js-how-block').slick({
-        dots: false,
-        arrows: false,
-      });         
+        $('.js-slider-help').slick({
+            dots: false,
+            arrows: false,
+        });
+
+        $('.js-trafic').slick({
+            dots: false,
+            arrows: false,
+        });
+
+        $('.js-nadeg-partner').slick({
+            dots: false,
+            arrows: false,
+        });
+
+        $('.js-prodvigsite').slick({
+            dots: false,
+            arrows: false,
+        });
+
+        $('.js-nadeg-partner-work').slick({
+            dots: false,
+            arrows: false,
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            adaptiveHeight: true,
+            responsive: [
+                {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        dots: false,
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                    }
+                }
+            ]
+        });
     }
 
     $('.rewievs_about__slider').slick({
@@ -134,7 +168,25 @@ $(function() {
         slidesToShow: 1,
         nextArrow: '<button type="button" class="slick-next">&rarr;</button>',
         prevArrow: '<button type="button" class="slick-prev">&larr;</button>',
-        adaptiveHeight: true
+        adaptiveHeight: true,
+        responsive: [
+            {
+                breakpoint: 800,
+                settings: {
+                    arrows: false,
+                    dots: false,
+                    slidesToShow: 1,
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    dots: false,
+                    slidesToShow: 1,
+                }
+            }
+        ]
     });
 
     $('.keisi__slider').slick({
@@ -144,7 +196,25 @@ $(function() {
         slidesToShow: 1,
         nextArrow: '<button type="button" class="slick-next">&rarr;</button>',
         prevArrow: '<button type="button" class="slick-prev">&larr;</button>',
-        adaptiveHeight: true
+        adaptiveHeight: true,
+        responsive: [
+            {
+                breakpoint: 800,
+                settings: {
+                    arrows: false,
+                    dots: false,
+                    slidesToShow: 1,
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    dots: false,
+                    slidesToShow: 1,
+                }
+            }
+        ]
     });
 
     $('.ourcomand__slider').slick({
