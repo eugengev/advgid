@@ -31,13 +31,29 @@ strong
 
 .tarif.site
   padding-bottom: 128px
+  @media (max-width: 1200px)
+    padding-bottom: 47px
+    .keysi__slider-icon
+      padding-top: 26px
   h2
     padding-bottom: 39px
+    @media (max-width: 1200px)
+      max-width: 250px
+      margin: 0 auto
+      line-height: 40px
+      padding-bottom: 28px
+      &:before
+        margin-bottom: 36px
   .tarif__item
     padding: 26px 32px
+    @media (max-width: 1200px)
+      padding: 26px 76px
+      letter-spacing: -0.4px
     .title
       text-align: center
       padding-bottom: 40px
+    @media (max-width: 440px)
+      padding: 26px 13px
   .radioblock
     position: relative
     input
@@ -84,14 +100,22 @@ strong
     padding-right: 0
     .price
       padding-left: 0
+      @media (max-width: 1200px)
+        span
+          display: inline-block
+          vertical-align: middle
     .order
       margin-left: auto
       margin-right: auto
+      @media (max-width: 1200px)
+        padding-top: 15px
 
 .forma-sale.primer
   padding-top: 91px
   background-size: cover
   padding-bottom: 64px
+  @media (max-width: 1200px)
+    padding-bottom: 57px
   h2
     &:before
       content: ''
@@ -106,24 +130,45 @@ strong
     line-height: 62px
     text-align: center
     margin: 0 0 10px
+    @media (max-width: 1200px)
+      margin: 0 auto 20px
+      font-size: 30px
+      line-height: 40px
+      &:before
+        margin-bottom: 30px
   .forma-sale__desc
     +FFGL
     font-size: 18px
     line-height: 30px
     padding-bottom: 26px
+    @media (max-width: 1200px)
+      padding-bottom: 7px
+      max-width: 300px
+      br
+        display: none
   .forma-sale__bref
     text-align: center
     font-size: 14px
     color: #ffffff
     margin-top: 30px
+    @media (max-width: 1200px)
+      margin: 10px auto 30px
+      max-width: 300px
 
 .how-work.site
   padding-top: 91px
   background: #fcfcfc
   padding-bottom: 115px
+  @media (max-width: 1200px)
+    padding-top: 66px
+    padding-bottom: 36px
+    h2
+      padding-bottom: 15px
   .justify-content-center
     .how-work__item
       margin: 0 23px
+      @media (max-width: 1200px)
+        margin: 0 0 25px
   .how-work__item
     border-radius: 7px
     background-color: rgb(255, 255, 255)
@@ -159,6 +204,10 @@ strong
 .hard-work
   padding-top: 106px
   padding-bottom: 64px
+  @media (max-width: 1200px)
+    padding-top: 50px
+    .keysi__slider-icon
+      padding-top: 47px
   h2
     &:before
       content: ''
@@ -173,12 +222,21 @@ strong
     line-height: 62px
     text-align: center
     margin: 0 0 5px
+    @media (max-width: 1200px)
+      font-size: 30px
+      max-width: 300px
+      margin: 0 auto 8px
+      line-height: 40px
+      &:before
+        margin-bottom: 33px
   &__desc
     font-size: 15px
     line-height: 20px
     +FFGB
     text-align: center
     min-height: 81px
+    @media (max-width: 1200px)
+      min-height: 91px
   &__price
     +FFGB
     text-align: center
@@ -186,6 +244,8 @@ strong
     line-height: 20px
     color: #4473b9
     min-height: 70px
+    @media (max-width: 1200px)
+      min-height: 57px
   &__item
     .pic
       border-radius: 7px
@@ -206,12 +266,44 @@ strong
       line-height: 20px
   .btn-row
     margin-top: 70px
+    @media (max-width: 1200px)
+      margin-top: 50px
+    @media (max-width: 440px)
+      text-align: center
+  @media (max-width: 1200px)
+    .js-hard-work
+      position: relative
+      width: 100vw
+      margin: 0
+      left: 50%
+      transform: translateX(-50%)
+      .col-lg-4
+        width: 460px
+      .hard-work__item
+        width: 360px
+        margin: 0 auto
+    .text-lg-right
+      margin-bottom: 10px
+  @media (max-width: 440px)
+    .js-hard-work
+      width: auto
+      left: unset
+      transform: translateX(0)
+      .col-lg-4
+        width: auto
+      .hard-work__item
+        width: auto
 
 .keisi.site
   background: #fcfcfc
   padding-top: 102px
+  @media (max-width: 1200px)
+    padding-top: 73px
+    padding-bottom: 37px
   .keisi__desc
     margin-bottom: 88px
+    @media (max-width: 1200px)
+      margin-bottom: 38px
   .keisi__item_cont
     padding-top: 42px
   .keisi__item 
@@ -223,6 +315,10 @@ strong
     .gall
       padding-top: 17px
       padding-bottom: 20px
+      @media (max-width: 1200px)
+        overflow: hidden
+        padding-top: 22px
+        padding-left: 5px
       .gal
         +FFGB
         padding-left: 27px
@@ -232,11 +328,27 @@ strong
         margin-right: 15px
         &:nth-last-child(1)
           margin-right: 0
+        @media (max-width: 1200px)
+          float: left
+          width: 50%
+          margin-right: 0
+          padding-left: 35px
+          height: 25px
+          vertical-align: middle
+          margin-bottom: 31px
+          &:nth-last-child(2)
+            line-height: 20px
+          &:nth-last-child(1)
+            width: 100%
+            margin-bottom: 0
     .desc1
       padding-top: 11px
       font-size: 15px
       line-height: 22px
       max-width: 450px
+      @media (max-width: 1200px)
+        padding-top: 0
+        padding-bottom: 12px
     .link
       margin-top: 2px
       a
@@ -247,18 +359,52 @@ strong
           color: #000000
   .slick-dots
     margin-bottom: 45px
+  @media (max-width: 1200px)
+    .keisi__slider
+      padding-bottom: 40px
+    .keysi__slider-icon
+      padding-top: 43px
 
 .nadeg-partner.site
   background: none
   padding-bottom: 100px
+  @media (max-width: 1200px)
+    padding-top: 69px
+    padding-bottom: 60px
+    .keysi__slider-icon
+      padding-top: 34px
   h2
     padding-bottom: 130px
+    @media (max-width: 1200px)
+      max-width: 300px
+      position: relative
+      left: unset
+      margin: 0 auto
+      transform: translateX(0)
+      padding-bottom: 64px
+      &:before
+        margin-bottom: 33px
   .nadeg-partner__item 
     h3
       margin-bottom: 0
       padding-bottom: 26px
+    .desc
+      @media (max-width: 1200px)
+        max-width: 300px
+        margin: 0 auto
+        font-size: 15px
+        line-height: 21px
   .btn-block
     padding-top: 56px
+    @media (max-width: 1200px)
+      padding-top: 40px
+      max-width: 310px
+      margin: 0 auto
+      br
+        display: none
+      .title3
+        font-size: 15px
+        margin-bottom: 36px
   .title3
     font-size: 18px
     color: #000000
@@ -268,10 +414,16 @@ strong
 
 .ourcomand.site
   padding-top: 158px
+  background: #fcfcfc
+  @media (max-width: 1200px)
+    padding-top: 43px
 
 .specpredlog
   padding-top: 63px
   padding-bottom: 117px
+  @media (max-width: 1200px)
+    padding-top: 66px
+    padding-bottom: 83px
   h2
     &:before
       content: ''
@@ -286,9 +438,21 @@ strong
     line-height: 62px
     text-align: center
     margin: 0 0 14px
+    @media (max-width: 1200px)
+      font-size: 30px
+      line-height: 40px
+      margin: 0 auto 27px
+      max-width: 330px
+      br
+        display: none
+      &:before
+        margin-bottom: 31px
   &__desc
     font-size: 18px
     text-align: center
     line-height: 30px
     letter-spacing: 0.4px
     margin-bottom: 20px
+    @media (max-width: 1200px)
+      max-width: 300px
+      margin: 0 auto 30px

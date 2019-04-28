@@ -141,6 +141,14 @@ $(function() {
             arrows: false,
         });
 
+        $('.js-hard-work').slick({
+            dots: false,
+            arrows: false,
+            centerMode: true,
+            centerPadding: '50px',
+            variableWidth: true
+        });
+
         $('.js-nadeg-partner-work').slick({
             dots: false,
             arrows: false,

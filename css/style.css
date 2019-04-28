@@ -1266,11 +1266,21 @@ strong { font-family: 'Gilroy'; font-weight: 800; font-style: normal; }
 
 .tarif.site { padding-bottom: 128px; }
 
+@media (max-width: 1200px) { .tarif.site { padding-bottom: 47px; }
+  .tarif.site .keysi__slider-icon { padding-top: 26px; } }
+
 .tarif.site h2 { padding-bottom: 39px; }
+
+@media (max-width: 1200px) { .tarif.site h2 { max-width: 250px; margin: 0 auto; line-height: 40px; padding-bottom: 28px; }
+  .tarif.site h2:before { margin-bottom: 36px; } }
 
 .tarif.site .tarif__item { padding: 26px 32px; }
 
+@media (max-width: 1200px) { .tarif.site .tarif__item { padding: 26px 76px; letter-spacing: -0.4px; } }
+
 .tarif.site .tarif__item .title { text-align: center; padding-bottom: 40px; }
+
+@media (max-width: 440px) { .tarif.site .tarif__item { padding: 26px 13px; } }
 
 .tarif.site .radioblock { position: relative; }
 
@@ -1286,21 +1296,40 @@ strong { font-family: 'Gilroy'; font-weight: 800; font-style: normal; }
 
 .tarif.site .price-order .price { padding-left: 0; }
 
+@media (max-width: 1200px) { .tarif.site .price-order .price span { display: inline-block; vertical-align: middle; } }
+
 .tarif.site .price-order .order { margin-left: auto; margin-right: auto; }
 
+@media (max-width: 1200px) { .tarif.site .price-order .order { padding-top: 15px; } }
+
 .forma-sale.primer { padding-top: 91px; background-size: cover; padding-bottom: 64px; }
+
+@media (max-width: 1200px) { .forma-sale.primer { padding-bottom: 57px; } }
 
 .forma-sale.primer h2 { font-family: 'Gilroy'; font-weight: 800; font-style: normal; color: #FFF; font-size: 40px; line-height: 62px; text-align: center; margin: 0 0 10px; }
 
 .forma-sale.primer h2:before { content: ''; display: block; width: 41px; height: 3px; margin: 0 auto 20px; background: #FFF; }
 
+@media (max-width: 1200px) { .forma-sale.primer h2 { margin: 0 auto 20px; font-size: 30px; line-height: 40px; }
+  .forma-sale.primer h2:before { margin-bottom: 30px; } }
+
 .forma-sale.primer .forma-sale__desc { font-family: 'Gilroy'; font-weight: 300; font-style: normal; font-size: 18px; line-height: 30px; padding-bottom: 26px; }
+
+@media (max-width: 1200px) { .forma-sale.primer .forma-sale__desc { padding-bottom: 7px; max-width: 300px; }
+  .forma-sale.primer .forma-sale__desc br { display: none; } }
 
 .forma-sale.primer .forma-sale__bref { text-align: center; font-size: 14px; color: #ffffff; margin-top: 30px; }
 
+@media (max-width: 1200px) { .forma-sale.primer .forma-sale__bref { margin: 10px auto 30px; max-width: 300px; } }
+
 .how-work.site { padding-top: 91px; background: #fcfcfc; padding-bottom: 115px; }
 
+@media (max-width: 1200px) { .how-work.site { padding-top: 66px; padding-bottom: 36px; }
+  .how-work.site h2 { padding-bottom: 15px; } }
+
 .how-work.site .justify-content-center .how-work__item { margin: 0 23px; }
+
+@media (max-width: 1200px) { .how-work.site .justify-content-center .how-work__item { margin: 0 0 25px; } }
 
 .how-work.site .how-work__item { border-radius: 7px; background-color: white; box-shadow: 0px 25px 35px 0px rgba(123, 138, 143, 0.1); }
 
@@ -1332,13 +1361,23 @@ strong { font-family: 'Gilroy'; font-weight: 800; font-style: normal; }
 
 .hard-work { padding-top: 106px; padding-bottom: 64px; }
 
+@media (max-width: 1200px) { .hard-work { padding-top: 50px; }
+  .hard-work .keysi__slider-icon { padding-top: 47px; } }
+
 .hard-work h2 { font-family: 'Gilroy'; font-weight: 800; font-style: normal; color: #000; font-size: 40px; line-height: 62px; text-align: center; margin: 0 0 5px; }
 
 .hard-work h2:before { content: ''; display: block; width: 41px; height: 3px; margin: 0 auto 20px; background: #4473b9; }
 
+@media (max-width: 1200px) { .hard-work h2 { font-size: 30px; max-width: 300px; margin: 0 auto 8px; line-height: 40px; }
+  .hard-work h2:before { margin-bottom: 33px; } }
+
 .hard-work__desc { font-size: 15px; line-height: 20px; font-family: 'Gilroy'; font-weight: 800; font-style: normal; text-align: center; min-height: 81px; }
 
+@media (max-width: 1200px) { .hard-work__desc { min-height: 91px; } }
+
 .hard-work__price { font-family: 'Gilroy'; font-weight: 800; font-style: normal; text-align: center; font-size: 21px; line-height: 20px; color: #4473b9; min-height: 70px; }
+
+@media (max-width: 1200px) { .hard-work__price { min-height: 57px; } }
 
 .hard-work__item .pic { border-radius: 7px; background-color: white; box-shadow: 0px 25px 35px 0px rgba(123, 138, 143, 0.1); margin-bottom: 18px; }
 
@@ -1350,9 +1389,26 @@ strong { font-family: 'Gilroy'; font-weight: 800; font-style: normal; }
 
 .hard-work .btn-row { margin-top: 70px; }
 
+@media (max-width: 1200px) { .hard-work .btn-row { margin-top: 50px; } }
+
+@media (max-width: 440px) { .hard-work .btn-row { text-align: center; } }
+
+@media (max-width: 1200px) { .hard-work .js-hard-work { position: relative; width: 100vw; margin: 0; left: 50%; -ms-transform: translateX(-50%); transform: translateX(-50%); }
+  .hard-work .js-hard-work .col-lg-4 { width: 460px; }
+  .hard-work .js-hard-work .hard-work__item { width: 360px; margin: 0 auto; }
+  .hard-work .text-lg-right { margin-bottom: 10px; } }
+
+@media (max-width: 440px) { .hard-work .js-hard-work { width: auto; left: unset; -ms-transform: translateX(0); transform: translateX(0); }
+  .hard-work .js-hard-work .col-lg-4 { width: auto; }
+  .hard-work .js-hard-work .hard-work__item { width: auto; } }
+
 .keisi.site { background: #fcfcfc; padding-top: 102px; }
 
+@media (max-width: 1200px) { .keisi.site { padding-top: 73px; padding-bottom: 37px; } }
+
 .keisi.site .keisi__desc { margin-bottom: 88px; }
+
+@media (max-width: 1200px) { .keisi.site .keisi__desc { margin-bottom: 38px; } }
 
 .keisi.site .keisi__item_cont { padding-top: 42px; }
 
@@ -1362,11 +1418,19 @@ strong { font-family: 'Gilroy'; font-weight: 800; font-style: normal; }
 
 .keisi.site .keisi__item .gall { padding-top: 17px; padding-bottom: 20px; }
 
+@media (max-width: 1200px) { .keisi.site .keisi__item .gall { overflow: hidden; padding-top: 22px; padding-left: 5px; } }
+
 .keisi.site .keisi__item .gall .gal { font-family: 'Gilroy'; font-weight: 800; font-style: normal; padding-left: 27px; display: inline-block; height: 25px; line-height: 25px; margin-right: 15px; }
 
 .keisi.site .keisi__item .gall .gal:nth-last-child(1) { margin-right: 0; }
 
+@media (max-width: 1200px) { .keisi.site .keisi__item .gall .gal { float: left; width: 50%; margin-right: 0; padding-left: 35px; height: 25px; vertical-align: middle; margin-bottom: 31px; }
+  .keisi.site .keisi__item .gall .gal:nth-last-child(2) { line-height: 20px; }
+  .keisi.site .keisi__item .gall .gal:nth-last-child(1) { width: 100%; margin-bottom: 0; } }
+
 .keisi.site .keisi__item .desc1 { padding-top: 11px; font-size: 15px; line-height: 22px; max-width: 450px; }
+
+@media (max-width: 1200px) { .keisi.site .keisi__item .desc1 { padding-top: 0; padding-bottom: 12px; } }
 
 .keisi.site .keisi__item .link { margin-top: 2px; }
 
@@ -1376,26 +1440,69 @@ strong { font-family: 'Gilroy'; font-weight: 800; font-style: normal; }
 
 .keisi.site .slick-dots { margin-bottom: 45px; }
 
+@media (max-width: 1200px) { .keisi.site .keisi__slider { padding-bottom: 40px; }
+  .keisi.site .keysi__slider-icon { padding-top: 43px; } }
+
 .nadeg-partner.site { background: none; padding-bottom: 100px; }
+
+@media (max-width: 1200px) { .nadeg-partner.site { padding-top: 69px; padding-bottom: 60px; }
+  .nadeg-partner.site .keysi__slider-icon { padding-top: 34px; } }
 
 .nadeg-partner.site h2 { padding-bottom: 130px; }
 
+@media (max-width: 1200px) { .nadeg-partner.site h2 { max-width: 300px; position: relative; left: unset; margin: 0 auto; -ms-transform: translateX(0); transform: translateX(0); padding-bottom: 64px; }
+  .nadeg-partner.site h2:before { margin-bottom: 33px; } }
+
 .nadeg-partner.site .nadeg-partner__item h3 { margin-bottom: 0; padding-bottom: 26px; }
 
+@media (max-width: 1200px) { .nadeg-partner.site .nadeg-partner__item .desc { max-width: 300px; margin: 0 auto; font-size: 15px; line-height: 21px; } }
+
 .nadeg-partner.site .btn-block { padding-top: 56px; }
+
+@media (max-width: 1200px) { .nadeg-partner.site .btn-block { padding-top: 40px; max-width: 310px; margin: 0 auto; }
+  .nadeg-partner.site .btn-block br { display: none; }
+  .nadeg-partner.site .btn-block .title3 { font-size: 15px; margin-bottom: 36px; } }
 
 .nadeg-partner.site .title3 { font-size: 18px; color: #000000; font-family: 'Gilroy'; font-weight: 800; font-style: normal; }
 
 .nadeg-partner.site .title3 span { color: #4473b9; }
 
-.ourcomand.site { padding-top: 158px; }
+.ourcomand.site { padding-top: 158px; background: #fcfcfc; }
+
+@media (max-width: 1200px) { .ourcomand.site { padding-top: 43px; } }
 
 .specpredlog { padding-top: 63px; padding-bottom: 117px; }
+
+@media (max-width: 1200px) { .specpredlog { padding-top: 66px; padding-bottom: 83px; } }
 
 .specpredlog h2 { font-family: 'Gilroy'; font-weight: 800; font-style: normal; color: #000; font-size: 40px; line-height: 62px; text-align: center; margin: 0 0 14px; }
 
 .specpredlog h2:before { content: ''; display: block; width: 41px; height: 3px; margin: 0 auto 20px; background: #4473b9; }
 
+@media (max-width: 1200px) { .specpredlog h2 { font-size: 30px; line-height: 40px; margin: 0 auto 27px; max-width: 330px; }
+  .specpredlog h2 br { display: none; }
+  .specpredlog h2:before { margin-bottom: 31px; } }
+
 .specpredlog__desc { font-size: 18px; text-align: center; line-height: 30px; letter-spacing: 0.4px; margin-bottom: 20px; }
+
+@media (max-width: 1200px) { .specpredlog__desc { max-width: 300px; margin: 0 auto 30px; } }
+
+.top_block_page img { display: block; margin: 0 auto; }
+
+.tarif.jadro .tarif__item { padding-top: 47px; padding-bottom: 40px; }
+
+.tarif.jadro .left { padding-right: 30px; }
+
+.tarif.jadro .center { padding-left: 30px; }
+
+.tarif.jadro .right { padding-left: 40px; padding-right: 3px; }
+
+.tarif.jadro .listwork { min-height: 300px; margin-bottom: 3px; }
+
+.tarif.jadro .listwork li:nth-last-child(1) { margin-bottom: 0; }
+
+.tarif.jadro .price-order .price { padding-left: 32px; }
+
+.tarif.jadro .price-order .ekonom { color: #c43939; font-size: 13px; margin-bottom: 26px; }
 
 /*# sourceMappingURL=style.css.map */
