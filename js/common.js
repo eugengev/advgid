@@ -121,11 +121,6 @@ $(function() {
             arrows: false,
         });
 
-        $('.js-slider-help').slick({
-            dots: false,
-            arrows: false,
-        });
-
         $('.js-trafic').slick({
             dots: false,
             arrows: false,
@@ -167,6 +162,7 @@ $(function() {
                 }
             ]
         });
+
     }
 
     $('.rewievs_about__slider').slick({
@@ -230,6 +226,33 @@ $(function() {
         infinite: true,
         speed: 300,
         slidesToShow: 2,
+        nextArrow: '<button type="button" class="slick-next">&rarr;</button>',
+        prevArrow: '<button type="button" class="slick-prev">&larr;</button>',
+        responsive: [
+            {
+                breakpoint: 800,
+                settings: {
+                    arrows: false,
+                    dots: false,
+                    slidesToShow: 1,
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    dots: false,
+                    slidesToShow: 1,
+                }
+            }
+        ]
+    });
+
+    $('.js-keisy-jadro .row').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 3,
         nextArrow: '<button type="button" class="slick-next">&rarr;</button>',
         prevArrow: '<button type="button" class="slick-prev">&larr;</button>',
         responsive: [

@@ -4,6 +4,8 @@
     margin: 0 auto
 
 .tarif.jadro
+  padding-bottom: 100px
+  padding-bottom: 75px
   .tarif__item
     padding-top: 47px
     padding-bottom: 40px
@@ -26,3 +28,266 @@
       color: #c43939
       font-size: 13px
       margin-bottom: 26px
+
+.keisy
+  padding-top: 70px
+  padding-bottom: 79px
+  h2
+    text-align: center
+    +FFGB
+    font-size: 40px
+    line-height: 50px
+    margin: 0
+    padding-bottom: 80px
+    &:before
+      content: ''
+      display: block
+      margin: 0 auto
+      width: 41px
+      height: 3px
+      background: #4473b9
+      margin-bottom: 25px
+    @media (max-width: 800px)
+      font-size: 40px
+      line-height: 48px
+      margin: 0
+      padding-bottom: 23px
+  .js-keisy-jadro
+    max-width: 900px
+    margin: 0 auto
+  &__item
+    .pic
+      height: 90px
+      line-height: 90px
+      vertical-align: middle
+      text-align: center
+      img
+        vertical-align: middle
+        margin: 0 auto
+        display: inline-block
+        max-height: 100%
+    h4
+      text-align: center
+      font-size: 14px
+      color: #000000
+      line-height: 25px
+      +FFGB
+    .graf
+      width: 130px
+      margin: 0 auto
+      display: flex
+      .title
+        font-size: 10px
+        strong
+          display: block
+          +FFGB
+          text-align: center
+          text-transform: uppercase
+      .stolbec
+        width: 53px
+        height: 264px
+        background: #f1f1f1
+        margin-bottom: 12px
+        border-radius: 20px
+        position: relative
+        &:before
+          content: ''
+          border-radius: 50%
+          background-color: rgb(230, 230, 230)
+          position: absolute
+          width: 53px
+          height: 25px
+          left: 0
+          top: 0
+        .bg
+          background-color: rgb(68, 115, 185)
+          position: absolute
+          width: 53px
+          height: 111px
+          bottom: 15px
+          text-align: center
+          left: 0
+          &:after
+            content: ''
+            background-color: rgb(68, 115, 185)
+            position: absolute
+            width: 53px
+            height: 25px
+            border-radius: 50%
+            left: 0
+            bottom: -15px
+          &:before
+            content: ''
+            border-radius: 50%
+            background-color: #f1f1f1
+            position: absolute
+            width: 53px
+            height: 25px
+            left: 0
+            top: -13px
+        .text
+          font-size: 18px
+          display: inline-block
+          color: #ffffff
+          width: 100px
+          height: 25px
+          +FFGB
+          transform: rotate(-90deg)
+          transform-origin: center 37px
+          text-align: left
+          position: absolute
+          left: 0
+          bottom: 76px
+      .block-do
+        width: 53px
+      .block-posle
+        width: 53px
+        .stolbec
+          .bg
+            background: #c43939
+            &:after
+              background: #c43939
+  .slick-arrow.slick-next
+    right: -226px
+    top: 136px
+  .slick-arrow.slick-prev
+    left: -226px
+    top: 136px
+  .slick-dots
+    padding-top: 50px
+
+.forma-sale.jadro
+  padding-top: 112px
+  padding-bottom: 103px
+  .info-block
+    padding-top: 0
+    color: #fff
+    margin-bottom: 47px
+    .item
+      min-height: 102px
+    .pic
+      display: inline-block
+      width: 82px
+      vertical-align: top
+    .text
+      display: inline-block
+      font-size: 16px
+      line-height: 21px
+      h3
+        font-size: 16px
+        +FFGB
+        margin-bottom: 0
+
+.nadeg-partner.jadro
+  background: #FFFFFF
+  padding-bottom: 56px
+
+.how-work.work2.jadro
+  padding-bottom: 58px
+  h2
+    padding-bottom: 70px
+  .how-work__item
+    font-size: 16px
+    +FFGB
+    line-height: 20px
+    padding-top: 70px
+  .it4
+    padding-left: 129px
+    padding-top: 66px
+    padding-right: 0
+  .pic1
+    background-image: url("../images/metod-1.png")
+    top: 78px
+    left: 29px
+    &:hover
+      background-image: url("../images/metod-1-hover.png")
+  .pic2
+    background-image: url("../images/metod-2.png")
+    top: 70px
+    left: 48px
+    &:hover
+      background-image: url("../images/metod-2-hover.png")
+  .pic3
+    background-image: url("../images/metod-3.png")
+    top: 75px
+    left: 60px
+    &:hover
+      background-image: url("../images/metod-3-hover.png")
+  .pic4
+    background-image: url("../images/metod-4.png")
+    top: 81px
+    left: 37px
+    &:hover
+      background-image: url("../images/metod-4-hover.png")
+  .pic5
+    background-image: url("../images/metod-5.png")
+    top: 74px
+    left: 47px
+    &:hover
+      background-image: url("../images/metod-5-hover.png")
+
+.faq
+  padding-top: 106px
+  padding-bottom: 10px
+  h2
+    font-size: 40px
+    color: #000
+    line-height: 50px
+    margin-top: -17px
+    margin-bottom: 62px
+  &__text
+    max-width: 750px
+  &__form
+    width: 392px
+  .faq-list
+    padding-left: 40px
+    li
+      list-style: none
+      font-size: 14px
+      line-height: 20px
+      letter-spacing: 0.4px
+      margin-bottom: 19px
+      h3
+        font-size: 16px
+        line-height: 16px
+        position: relative
+        min-height: 42px
+        letter-spacing: 0
+        &:before
+          content: '?'
+          position: absolute
+          border-width: 1px
+          border-color: rgb(68, 115, 185)
+          border-style: solid
+          border-radius: 50%
+          background-color: rgb(68, 115, 185)
+          box-shadow: 0px 15px 30px 0px rgba(68, 115, 185, 0.25)
+          width: 25px
+          height: 25px
+          line-height: 23px
+          text-align: center
+          font-size: 14px
+          +FFGB
+          color: #FFFFFF
+          left: -37px
+          top: -6px
+  .form-work
+    position: relative
+    left: unset
+    right: -30px
+    color: #fff
+    top: unset
+    bottom: unset
+    background: url("../images/form-bg.jpg") no-repeat center
+    background-size: cover
+    border-radius: 5px
+    width: 390px
+    min-height: 637px
+    height: unset
+    padding: 47px 37px
+    .form-work__title
+      min-height: 60px
+      span
+        +FFGL
+    .form-work__row
+      padding-bottom: 15px

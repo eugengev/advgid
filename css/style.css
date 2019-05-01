@@ -1489,6 +1489,8 @@ strong { font-family: 'Gilroy'; font-weight: 800; font-style: normal; }
 
 .top_block_page img { display: block; margin: 0 auto; }
 
+.tarif.jadro { padding-bottom: 100px; padding-bottom: 75px; }
+
 .tarif.jadro .tarif__item { padding-top: 47px; padding-bottom: 40px; }
 
 .tarif.jadro .left { padding-right: 30px; }
@@ -1504,5 +1506,139 @@ strong { font-family: 'Gilroy'; font-weight: 800; font-style: normal; }
 .tarif.jadro .price-order .price { padding-left: 32px; }
 
 .tarif.jadro .price-order .ekonom { color: #c43939; font-size: 13px; margin-bottom: 26px; }
+
+.keisy { padding-top: 70px; padding-bottom: 79px; }
+
+.keisy h2 { text-align: center; font-family: 'Gilroy'; font-weight: 800; font-style: normal; font-size: 40px; line-height: 50px; margin: 0; padding-bottom: 80px; }
+
+.keisy h2:before { content: ''; display: block; margin: 0 auto; width: 41px; height: 3px; background: #4473b9; margin-bottom: 25px; }
+
+@media (max-width: 800px) { .keisy h2 { font-size: 40px; line-height: 48px; margin: 0; padding-bottom: 23px; } }
+
+.keisy .js-keisy-jadro { max-width: 900px; margin: 0 auto; }
+
+.keisy__item .pic { height: 90px; line-height: 90px; vertical-align: middle; text-align: center; }
+
+.keisy__item .pic img { vertical-align: middle; margin: 0 auto; display: inline-block; max-height: 100%; }
+
+.keisy__item h4 { text-align: center; font-size: 14px; color: #000000; line-height: 25px; font-family: 'Gilroy'; font-weight: 800; font-style: normal; }
+
+.keisy__item .graf { width: 130px; margin: 0 auto; display: -ms-flexbox; display: flex; }
+
+.keisy__item .graf .title { font-size: 10px; }
+
+.keisy__item .graf .title strong { display: block; font-family: 'Gilroy'; font-weight: 800; font-style: normal; text-align: center; text-transform: uppercase; }
+
+.keisy__item .graf .stolbec { width: 53px; height: 264px; background: #f1f1f1; margin-bottom: 12px; border-radius: 20px; position: relative; }
+
+.keisy__item .graf .stolbec:before { content: ''; border-radius: 50%; background-color: #e6e6e6; position: absolute; width: 53px; height: 25px; left: 0; top: 0; }
+
+.keisy__item .graf .stolbec .bg { background-color: #4473b9; position: absolute; width: 53px; height: 111px; bottom: 15px; text-align: center; left: 0; }
+
+.keisy__item .graf .stolbec .bg:after { content: ''; background-color: #4473b9; position: absolute; width: 53px; height: 25px; border-radius: 50%; left: 0; bottom: -15px; }
+
+.keisy__item .graf .stolbec .bg:before { content: ''; border-radius: 50%; background-color: #f1f1f1; position: absolute; width: 53px; height: 25px; left: 0; top: -13px; }
+
+.keisy__item .graf .stolbec .text { font-size: 18px; display: inline-block; color: #ffffff; width: 100px; height: 25px; font-family: 'Gilroy'; font-weight: 800; font-style: normal; -ms-transform: rotate(-90deg); transform: rotate(-90deg); -ms-transform-origin: center 37px; transform-origin: center 37px; text-align: left; position: absolute; left: 0; bottom: 76px; }
+
+.keisy__item .graf .block-do { width: 53px; }
+
+.keisy__item .graf .block-posle { width: 53px; }
+
+.keisy__item .graf .block-posle .stolbec .bg { background: #c43939; }
+
+.keisy__item .graf .block-posle .stolbec .bg:after { background: #c43939; }
+
+.keisy .slick-arrow.slick-next { right: -226px; top: 136px; }
+
+.keisy .slick-arrow.slick-prev { left: -226px; top: 136px; }
+
+.keisy .slick-dots { padding-top: 50px; }
+
+.forma-sale.jadro { padding-top: 112px; padding-bottom: 103px; }
+
+.forma-sale.jadro .info-block { padding-top: 0; color: #fff; margin-bottom: 47px; }
+
+.forma-sale.jadro .info-block .item { min-height: 102px; }
+
+.forma-sale.jadro .info-block .pic { display: inline-block; width: 82px; vertical-align: top; }
+
+.forma-sale.jadro .info-block .text { display: inline-block; font-size: 16px; line-height: 21px; }
+
+.forma-sale.jadro .info-block .text h3 { font-size: 16px; font-family: 'Gilroy'; font-weight: 800; font-style: normal; margin-bottom: 0; }
+
+.nadeg-partner.jadro { background: #FFFFFF; padding-bottom: 56px; }
+
+.how-work.work2.jadro { padding-bottom: 58px; }
+
+.how-work.work2.jadro h2 { padding-bottom: 70px; }
+
+.how-work.work2.jadro .how-work__item { font-size: 16px; font-family: 'Gilroy'; font-weight: 800; font-style: normal; line-height: 20px; padding-top: 70px; }
+
+.how-work.work2.jadro .it4 { padding-left: 129px; padding-top: 66px; padding-right: 0; }
+
+.how-work.work2.jadro .pic1 { background-image: url("../images/metod-1.png"); top: 78px; left: 29px; }
+
+.how-work.work2.jadro .pic1:hover { background-image: url("../images/metod-1-hover.png"); }
+
+.how-work.work2.jadro .pic2 { background-image: url("../images/metod-2.png"); top: 70px; left: 48px; }
+
+.how-work.work2.jadro .pic2:hover { background-image: url("../images/metod-2-hover.png"); }
+
+.how-work.work2.jadro .pic3 { background-image: url("../images/metod-3.png"); top: 75px; left: 60px; }
+
+.how-work.work2.jadro .pic3:hover { background-image: url("../images/metod-3-hover.png"); }
+
+.how-work.work2.jadro .pic4 { background-image: url("../images/metod-4.png"); top: 81px; left: 37px; }
+
+.how-work.work2.jadro .pic4:hover { background-image: url("../images/metod-4-hover.png"); }
+
+.how-work.work2.jadro .pic5 { background-image: url("../images/metod-5.png"); top: 74px; left: 47px; }
+
+.how-work.work2.jadro .pic5:hover { background-image: url("../images/metod-5-hover.png"); }
+
+.faq { padding-top: 106px; padding-bottom: 10px; }
+
+.faq h2 { font-size: 40px; color: #000; line-height: 50px; margin-top: -17px; margin-bottom: 62px; }
+
+.faq__text { max-width: 750px; }
+
+.faq__form { width: 392px; }
+
+.faq .faq-list { padding-left: 40px; }
+
+.faq .faq-list li { list-style: none; font-size: 14px; line-height: 20px; letter-spacing: 0.4px; margin-bottom: 19px; }
+
+.faq .faq-list li h3 { font-size: 16px; line-height: 16px; position: relative; min-height: 42px; letter-spacing: 0; }
+
+.faq .faq-list li h3:before { content: '?'; position: absolute; border-width: 1px; border-color: #4473b9; border-style: solid; border-radius: 50%; background-color: #4473b9; box-shadow: 0px 15px 30px 0px rgba(68, 115, 185, 0.25); width: 25px; height: 25px; line-height: 23px; text-align: center; font-size: 14px; font-family: 'Gilroy'; font-weight: 800; font-style: normal; color: #FFFFFF; left: -37px; top: -6px; }
+
+.faq .form-work { position: relative; left: unset; right: -30px; color: #fff; top: unset; bottom: unset; background: url("../images/form-bg.jpg") no-repeat center; background-size: cover; border-radius: 5px; width: 390px; min-height: 637px; height: unset; padding: 47px 37px; }
+
+.faq .form-work .form-work__title { min-height: 60px; }
+
+.faq .form-work .form-work__title span { font-family: 'Gilroy'; font-weight: 300; font-style: normal; }
+
+.faq .form-work .form-work__row { padding-bottom: 15px; }
+
+.tarif.socseti { padding-bottom: 100px; }
+
+.tarif.socseti .tarif__item { padding-top: 37px; padding-bottom: 40px; }
+
+.tarif.socseti .tarif__item .title { padding-bottom: 28px; }
+
+.tarif.socseti .left { padding-right: 30px; }
+
+.tarif.socseti .center { padding-left: 30px; }
+
+.tarif.socseti .right { padding-left: 40px; padding-right: 3px; }
+
+.tarif.socseti .listwork { min-height: 300px; margin-bottom: 3px; }
+
+.tarif.socseti .listwork li:nth-last-child(1) { margin-bottom: 0; }
+
+.tarif.socseti .price-order .price { padding-left: 32px; }
+
+.tarif.socseti .price-order .ekonom { color: #c43939; font-size: 13px; margin-bottom: 26px; }
 
 /*# sourceMappingURL=style.css.map */
