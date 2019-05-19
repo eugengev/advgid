@@ -76,6 +76,12 @@ $(function() {
         centerMode: true,
         variableWidth: true,
         responsive: [
+            {
+                breakpoint: 1210,
+                settings: {
+                    arrows: false,
+                }
+            },
           {
             breakpoint: 800,
             settings: {
@@ -99,7 +105,13 @@ $(function() {
         centerMode: true,
         variableWidth: true,
         responsive: [
-          {
+            {
+                breakpoint: 1210,
+                settings: {
+                    arrows: false,
+                }
+            },
+            {
             breakpoint: 800,
             settings: {
               arrows: false,
@@ -175,6 +187,12 @@ $(function() {
         adaptiveHeight: true,
         responsive: [
             {
+                breakpoint: 1210,
+                settings: {
+                    arrows: false,
+                }
+            },
+            {
                 breakpoint: 800,
                 settings: {
                     arrows: false,
@@ -203,6 +221,12 @@ $(function() {
         adaptiveHeight: true,
         responsive: [
             {
+                breakpoint: 1210,
+                settings: {
+                    arrows: false,
+                }
+            },
+            {
                 breakpoint: 800,
                 settings: {
                     arrows: false,
@@ -230,6 +254,12 @@ $(function() {
         prevArrow: '<button type="button" class="slick-prev">&larr;</button>',
         responsive: [
             {
+                breakpoint: 1210,
+                settings: {
+                    arrows: false,
+                }
+            },
+            {
                 breakpoint: 800,
                 settings: {
                     arrows: false,
@@ -256,6 +286,12 @@ $(function() {
         nextArrow: '<button type="button" class="slick-next">&rarr;</button>',
         prevArrow: '<button type="button" class="slick-prev">&larr;</button>',
         responsive: [
+            {
+                breakpoint: 1210,
+                settings: {
+                    arrows: false,
+                }
+            },
             {
                 breakpoint: 800,
                 settings: {
