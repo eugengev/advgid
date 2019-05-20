@@ -86,15 +86,51 @@
 
 @media (max-width: 800px) { .footer__social ul { padding-top: 37px; text-align: center; } }
 
-.footer__social ul li { list-style: none; display: inline-block; margin-right: 20px; position: relative; z-index: 10; }
+.footer__social ul li { list-style: none; display: inline-block; margin-right: 20px; position: relative; z-index: 10; width: 21px; height: 21px; }
 
 @media (max-width: 800px) { .footer__social ul li { margin: 0 10px; } }
 
 @media (max-width: 440px) { .footer__social ul li { margin: 0 5px; } }
 
-.footer__social ul li:hover:before { position: absolute; left: 50%; top: 50%; -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); content: ''; width: 32px; border-radius: 50%; height: 32px; background: #4473b9; }
+.footer__social ul li:hover:before { position: absolute; left: 50%; top: 50%; -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); content: ''; width: 32px; border-radius: 50%; height: 32px; z-index: 0; background: #4473b9; }
 
-.footer__social ul li a { position: relative; z-index: 20; }
+.footer__social ul li a { position: relative; z-index: 20; display: inline-block; width: 21px; height: 21px; line-height: 0; font-size: 0; }
+
+.footer__social ul li a.soc1 { background: url("../images/soc1.png") no-repeat center; }
+
+.footer__social ul li a.soc1:hover { background: url("../images/soc1-h.png") no-repeat center; }
+
+.footer__social ul li a.soc2 { background: url("../images/soc2.png") no-repeat center; }
+
+.footer__social ul li a.soc2:hover { background: url("../images/soc2-h.png") no-repeat center; }
+
+.footer__social ul li a.soc3 { background: url("../images/soc3.png") no-repeat center; }
+
+.footer__social ul li a.soc3:hover { background: url("../images/soc3-h.png") no-repeat center; }
+
+.footer__social ul li a.soc4 { background: url("../images/soc4.png") no-repeat center; }
+
+.footer__social ul li a.soc4:hover { background: url("../images/soc4-h.png") no-repeat center; }
+
+.footer__social ul li a.soc5 { background: url("../images/soc5.png") no-repeat center; }
+
+.footer__social ul li a.soc5:hover { background: url("../images/soc5-h.png") no-repeat center; }
+
+.footer__social ul li a.soc6 { background: url("../images/soc6.png") no-repeat center; }
+
+.footer__social ul li a.soc6:hover { background: url("../images/soc6-h.png") no-repeat center; }
+
+.footer__social ul li a.soc7 { background: url("../images/soc7.png") no-repeat center; }
+
+.footer__social ul li a.soc7:hover { background: url("../images/soc7-h.png") no-repeat center; }
+
+.footer__social ul li a.soc8 { background: url("../images/soc8.png") no-repeat center; }
+
+.footer__social ul li a.soc8:hover { background: url("../images/soc8-h.png") no-repeat center; }
+
+.footer__social ul li a.soc9 { background: url("../images/soc9.png") no-repeat center; }
+
+.footer__social ul li a.soc9:hover { background: url("../images/soc9-h.png") no-repeat center; }
 
 .footer__email a { font-size: 16px; font-family: 'Gilroy'; font-weight: 300; font-style: normal; text-decoration: none; color: #070707; padding-left: 28px; background: url(../images/email-icon.png) no-repeat left center; display: inline-block; }
 

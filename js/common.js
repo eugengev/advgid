@@ -57,6 +57,12 @@ $(function() {
       nextArrow: '<button type="button" class="slick-next">&rarr;</button>',
       prevArrow: '<button type="button" class="slick-prev">&larr;</button>',
       responsive: [
+          {
+              breakpoint: 1250,
+              settings: {
+                  arrows: false,
+              }
+          },
         {
           breakpoint: 1024,
           settings: {
