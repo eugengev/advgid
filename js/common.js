@@ -52,11 +52,17 @@ $(function() {
     $('.js-cliet-slider').slick({
       dots: true,
       speed: 300,
-      centerMode: true,
+        infinite: true,
       variableWidth: true,
       nextArrow: '<button type="button" class="slick-next">&rarr;</button>',
       prevArrow: '<button type="button" class="slick-prev">&larr;</button>',
       responsive: [
+          {
+              breakpoint: 1440,
+              settings: {
+                  arrows: false,
+              }
+          },
         {
           breakpoint: 1024,
           settings: {
@@ -76,6 +82,12 @@ $(function() {
         centerMode: true,
         variableWidth: true,
         responsive: [
+            {
+                breakpoint: 1440,
+                settings: {
+                    arrows: false,
+                }
+            },
           {
             breakpoint: 800,
             settings: {
@@ -99,7 +111,13 @@ $(function() {
         centerMode: true,
         variableWidth: true,
         responsive: [
-          {
+            {
+                breakpoint: 1440,
+                settings: {
+                    arrows: false,
+                }
+            },
+            {
             breakpoint: 800,
             settings: {
               arrows: false,
@@ -175,6 +193,12 @@ $(function() {
         adaptiveHeight: true,
         responsive: [
             {
+                breakpoint: 1440,
+                settings: {
+                    arrows: false,
+                }
+            },
+            {
                 breakpoint: 800,
                 settings: {
                     arrows: false,
@@ -203,6 +227,12 @@ $(function() {
         adaptiveHeight: true,
         responsive: [
             {
+                breakpoint: 1440,
+                settings: {
+                    arrows: false,
+                }
+            },
+            {
                 breakpoint: 800,
                 settings: {
                     arrows: false,
@@ -230,6 +260,12 @@ $(function() {
         prevArrow: '<button type="button" class="slick-prev">&larr;</button>',
         responsive: [
             {
+                breakpoint: 1440,
+                settings: {
+                    arrows: false,
+                }
+            },
+            {
                 breakpoint: 800,
                 settings: {
                     arrows: false,
@@ -256,6 +292,12 @@ $(function() {
         nextArrow: '<button type="button" class="slick-next">&rarr;</button>',
         prevArrow: '<button type="button" class="slick-prev">&larr;</button>',
         responsive: [
+            {
+                breakpoint: 1440,
+                settings: {
+                    arrows: false,
+                }
+            },
             {
                 breakpoint: 800,
                 settings: {
