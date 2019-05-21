@@ -317,13 +317,16 @@ $(function() {
         ]
     });
 });
-/*
+
 var map;
 function initMap() {
-    var myLatLng = {lat: 49.4225715, lng: 26.9763337};
+
+
+
+    // var myLatLng = {lat: 49.4225715, lng: 26.9763337};
 
     var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 15,
+        zoom: 10,
         scrollwheel: false,
         center:  {lat: 49.4225715, lng: 26.9763337},  // Brooklyn.
         mapTypeControlOptions: {
@@ -331,10 +334,21 @@ function initMap() {
         }
     });
 
-    var marker = new google.maps.Marker({
-        position: myLatLng,
-        map: map,
-        title: 'ТОчка на карте'
-    });
+    // var marker = new google.maps.Marker({
+    //     position: myLatLng,
+    //     map: map,
+    //     title: 'ТОчка на карте'
+    // });
+
+//https://fusiontables.google.com/DataSource?docid=1-05stFIyjdScUWHcaVr7u6JVDh3SamBIA4rMguc#rows:id=1
+
+
+    var KmlLayer = new google.maps.KmlLayer({
+        url: 'http://advgid.developsite.xyz/kml/ukraine.kml',
+        map: map
+    });    
+    var KmlLayer2 = new google.maps.KmlLayer({
+        url: 'http://advgid.developsite.xyz/kml/belarus.kml',
+        map: map
+    });      
 }
-*/

@@ -166,6 +166,8 @@ a { color: #4473b9; }
 
 textarea { resize: none; overflow: hidden; }
 
+#map { height: 600px; }
+
 .container { margin-left: auto; margin-right: auto; }
 
 @media (max-width: 800px) { .container { max-width: 440px; }
@@ -459,7 +461,7 @@ textarea { resize: none; overflow: hidden; }
 
 @media (max-width: 800px) { .form-idej__personal { text-align: center; max-width: 220px; margin: 0 auto; } }
 
-.map-client { padding-top: 125px; padding-bottom: 153px; }
+.map-client { padding-top: 125px; }
 
 @media (max-width: 800px) { .map-client { padding-top: 52px; padding-bottom: 213px; }
   .map-client .container { max-width: none; width: 100%; } }
