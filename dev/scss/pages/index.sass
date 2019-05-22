@@ -8,6 +8,9 @@ textarea
   resize: none
   overflow: hidden
 
+#map
+  height: 600px
+
 .container
   margin-left: auto
   margin-right: auto
@@ -234,13 +237,16 @@ textarea
       height: 60px
       padding-left: 24px
       padding-right: 24px
-      border: none
       border-radius: 30px
       width: 100%
       font-size: 14px
       color: #ffffff
       +FFGB
       background-color: #c43939
+      &:hover
+        text-decoration: none
+        color: #fff
+        background: #4473b9
     textarea
       height: 115px
       padding: 20px 24px
@@ -614,10 +620,13 @@ textarea
         border-radius: 30px
         background: #c43939
         color: #fff
-        border: none
         +FFGB
         @media (max-width: 800px)
           margin: 0 auto
+        &:hover
+          text-decoration: none
+          color: #fff
+          background: #4473b9
       @media (max-width: 800px)
         display: block
   &__file
@@ -664,7 +673,6 @@ textarea
 
 .map-client
   padding-top: 125px
-  padding-bottom: 153px
   @media (max-width: 800px)
     padding-top: 52px
     padding-bottom: 213px

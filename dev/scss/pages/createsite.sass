@@ -71,29 +71,31 @@ strong
       position: relative
       cursor: pointer
       margin: 0
-    &:before
-      content: ''
+      &:before
+        content: ''
+        display: block
+        position: absolute
+        left: 0
+        top: 0
+        width: 27px
+        height: 27px
+        border-width: 1px
+        border-color: rgb(213, 226, 233)
+        border-style: solid
+        border-radius: 50%
+        background-color: rgb(246, 246, 246)
+      &:after
+        content: ''
+        display: none
+        background-color: rgb(213, 226, 233)
+        border-radius: 50%
+        width: 15px
+        height: 15px
+        position: absolute
+        left: 6px
+        top: 6px
+    input:checked ~ label:after
       display: block
-      position: absolute
-      left: 0
-      top: 0
-      width: 27px
-      height: 27px
-      border-width: 1px
-      border-color: rgb(213, 226, 233)
-      border-style: solid
-      border-radius: 50%
-      background-color: rgb(246, 246, 246)
-    &:after
-      content: ''
-      display: block
-      background-color: rgb(213, 226, 233)
-      border-radius: 50%
-      width: 15px
-      height: 15px
-      position: absolute
-      left: 6px
-      top: 6px
   .price-order
     text-align: center
     display: block

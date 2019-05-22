@@ -1,5 +1,12 @@
 .top_block_page
   position: relative
+  @media (max-width: 1440px)
+    overflow: hidden
+    img
+      max-width: none
+      position: relative
+      left: 50%
+      transform: translateX(-50%)
   @media (max-width: 1190px)
     overflow: hidden
     .hidden-md
@@ -51,7 +58,7 @@
       padding-top: 20px
 
 
-.btn-red
+.btn-red, a.btn-red
   display: inline-block
   width: 254px
   line-height: 60px
@@ -64,7 +71,8 @@
   text-decoration: none
   &:hover
     text-decoration: none
-    color: #ffffff
+    color: #fff !important
+    background: #4473b9 !important
 
 .tarif
   background: #fcfcfc
@@ -564,13 +572,17 @@
     outline: none
   input[type=submit]
     height: 60px
-    border: none
     background: #c43939
     border-radius: 30px
     text-align: center
     font-size: 14px
     color: #ffffff
     width: 100%
+    border: none
+    &:hover
+      text-decoration: none
+      color: #ffff
+      background: #4473b9
   &__person
     padding-top: 27px
     letter-spacing: 0.4px
@@ -690,8 +702,6 @@
     .keysi__slider-icon
       padding-top: 30px
   h2
-    padding-bottom: 0
-    max-width: 300px
     &:before
       @media (max-width: 1190px)
         margin-bottom: 28px
@@ -702,14 +712,15 @@
     .pic
       line-height: 88px
   .js-nadeg-partner-work
-    width: 100vw
-    position: relative
-    left: 50%
-    transform: translateX(-50%)
-    @media (max-width: 440px)
-      left: unset
-      transform: translateX(0)
-      width: auto
+    @media (max-width: 1190px)
+      width: 100vw
+      position: relative
+      left: 50%
+      transform: translateX(-50%)
+      @media (max-width: 440px)
+        left: unset
+        transform: translateX(0)
+        width: auto
 
 .ourclient.seo
   background: #fff
